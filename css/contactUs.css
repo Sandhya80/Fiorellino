@@ -19,14 +19,19 @@
   }
 /* Styling the form container */
 .form-container {
-    position: relative;
+    position: absolute;
     z-index: 1; /* Ensuring form to be above the dimmed background */
     background: rgba(255, 255, 255, 0.8); /* Light background with opacity for the form */
-    margin: 0 auto;
-    max-width: 600px; /* max width for the form */
-    padding: 50px;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    max-width: 90%; /* Ensure it doesn't overflow horizontally */
+    max-height: 70vh; /* Ensure it doesn't overflow vertically */
+    width: 100%; /* Full width within max-width */
+    padding: 30px, 20px;
     border-radius: 10px;
-  }
+    box-sizing: border-box; /* Include padding in width/height */
+}
 h2 {
     font-size: 48px;
     color: purple;
