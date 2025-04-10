@@ -49,6 +49,9 @@ Open index.html in your browser to view the website.
 Check out the live version of the website here: https://sandhya80.github.io/Fiorellino/
 
 📸 Screenshots
+
+1. Homepage banner for small screens:
+
 ![sm-home](https://github.com/user-attachments/assets/b4f4e67a-bdf5-473c-bffc-4dcf4029a442)
 
 
