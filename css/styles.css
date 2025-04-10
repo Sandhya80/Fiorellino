@@ -3,6 +3,7 @@
 body {
     background-color: beige;
 }
+
 /* Navbar Section */
 .navbar {
     position: fixed; /* Fixed position */ 
@@ -17,6 +18,7 @@ body {
     color: purple; /* Text color */
     text-decoration: none; /* No underline */
 }
+
 /* Restricting searchbar from growing too much */
 .d-flex .search-bar {
     flex: 8 6 200px; 
