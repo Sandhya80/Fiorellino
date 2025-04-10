@@ -244,7 +244,10 @@ p {
     /* 2 per row on smaller screens */
     width: calc(50% - 20px); 
 }
-} 
+.banner-section {
+    background-image: url('../assets/homepage_imgs/banner-small.jpg');
+  }
+}
 
  
 
