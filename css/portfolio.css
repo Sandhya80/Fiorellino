@@ -1,0 +1,15 @@
+body {
+    background-color: beige;
+}
+.portfolio-section {
+    padding: 80px 0 20px 0;
+    font-weight: bold;
+}
+
+/* Add styles or remove the empty ruleset */
+.portfolio-name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: purple;
+}

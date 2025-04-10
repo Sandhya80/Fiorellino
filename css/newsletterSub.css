@@ -1,0 +1,51 @@
+/* Set the background image */
+.background-container {
+    position: relative;
+    background-image: url('../assets/Temp_imgs/newsletterBanner.JPG'); /* Image URL */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Cover the entire screen */
+  }
+  
+  /* Dimming effect */
+  .background-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  }
+  
+  /* Styling the form container */
+  .form-container {
+    position: relative;
+    z-index: 1; /* Ensuring form to be above the dimmed background */
+    background: rgba(255, 255, 255, 0.8); /* Light background with opacity for the form */
+    margin: 0 auto;
+    max-width: 600px; /* max width for the form */
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .text-white {
+    color: blueviolet !important;
+  }
+    .text-center {
+        text-align: center;
+        color: purple;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-style: normal;
+    }
+.btn {
+    background-color: blueviolet !important;
+    color: white !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}    
