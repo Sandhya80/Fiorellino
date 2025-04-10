@@ -22,7 +22,7 @@ body {
     flex: 8 6 200px; 
 }        
  .banner-section {
-    background:url('..assets/homepage_imgs/homepage_banner.JPG') no-repeat center center;
+    background:url('../assets/homepage_imgs/homepage_banner.JPG') no-repeat center center;
     background-size: cover;
     height: 85vh; /* viewport height */
     position: relative;
