@@ -1,0 +1,134 @@
+/* General Reset */
+body, html {    
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: lavenderblush; /* Matches the lavenderblush color */
+    height: 70px; /* Set a fixed height for the navbar */
+}
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: purple; /* Dark text for contrast */
+}
+
+.navbar-nav .nav-link {
+    color: purple; /* Matches the navbar text color */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: darkgreen; /* Adds a hover effect with a blue color */
+}
+/* Prevent Overlap with Fixed Navbar */
+body {
+    padding-top: 70px; /* Matches the navbar height */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px; /* Add padding for spacing */
+    background-color: beige; /* Light background for contrast */
+    min-height: calc(100vh - 70px); /* Ensure the main content fills the viewport minus the navbar height */
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    color: purple; /* Dark text for contrast */
+    font-weight: bold; /* Bold weight for emphasis */
+}
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem; /* Adjusted size for better visibility */
+    color: purple; /* Dark text for contrast */
+    margin-bottom: 20px; /* Space below the heading */
+}
+.lead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem; /* Adjusted size for better visibility */
+    color: black; /* Dark text for contrast */
+    margin-bottom: 20px; /* Space below the lead paragraph */
+}
+
+.btn-primary {
+    background-color: purple;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: darkgreen; /* Darker green on hover */
+}
+
+/* Footer Styling
+footer {
+    background-color: lavenderblush;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+} */
+
+/* Footer Section */
+footer .container{
+    background-color: lavenderblush;
+    text-align: center;
+    padding: 8px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-text {
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    color: violet;
+}
+.icons {
+    flex: 1;
+    margin: 8px 10px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* Small Devices (e.g., phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 1.2rem; /* Reduce font size for smaller screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .card-title {
+        font-size: 1rem; /* Reduce card title size */
+    }
+}
