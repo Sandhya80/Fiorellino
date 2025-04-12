@@ -77,8 +77,20 @@ Check out the live version of the website here: https://sandhya80.github.io/Fior
 
 ![lg-services](https://github.com/user-attachments/assets/1b94fb4a-40f8-4845-b2c9-88f5ef45602f)
 
+---
 
-📧 Contact
+## 📜 License
+
+This project is licensed strictly for **educational purposes only**. Any commercial use, redistribution, or modification of this project is prohibited without prior permission.
+
+---
+
+## 🙌 Credits
+
+- **Bootstrap**: For providing responsive design and prebuilt components. [Visit Bootstrap](https://getbootstrap.com/)
+- **Unsplash**: For the beautiful images used in the project. [Visit Unsplash](https://unsplash.com/)
+📧 Contact:
+
 For any inquiries or feedback, feel free to reach out:
 
 Email: sandhyaharsh@gmail.com
