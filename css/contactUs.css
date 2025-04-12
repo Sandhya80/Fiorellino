@@ -39,30 +39,36 @@
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
+  }  
   .booking-form .form-label {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: purple; /* Matches the theme */
     font-weight: bold;
-  }
-  
+  }  
   .booking-form .form-control {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
-  }
-  
+  }  
   .booking-form .btn-primary {
     background-color: purple; /* Matches the homepage theme */
     border: none;
     transition: background-color 0.3s ease;
-  }
-  
+  }  
   .booking-form .btn-primary:hover {
     background-color: darkorchid; /* Slightly darker shade on hover */
+  }
+  /* Dropdown Styling */
+  #event-service {
+    background-color: lavenderblush; /* Matches the Fiorellino theme */
+    color: purple; /* Text color */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the dropdown */
+    font-family: 'Roboto', sans-serif; /* Font style */
+    font-size: 1rem; /* Font size */
   }
   p {
     font-family: 'Roboto', sans-serif;
