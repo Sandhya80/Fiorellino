@@ -62,25 +62,49 @@
   </div>
 <div class="row justify-content-center">
   <div class="col-md-6">
-    
-    <div class="contact-form">
-      <h3 class="text-center">Contact Us</h3>
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email">
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
-          </div>
-            <button type="submit" class="btn btn-primary w-100">Send Message</button>
-        </form>
+
+    <!-- Booking Consultation Section -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Book a Consultation with Us</h2>
+  <p class="text-center">Schedule your consultation with our floral experts!</p>
+  <form class="booking-form">
+    <div class="row justify-content-center">
+      <!-- Name Field -->
+      <div class="col-md-4 mb-3">
+        <label for="consultation-name" class="form-label">Your Name</label>
+        <input type="text" id="consultation-name" class="form-control" placeholder="Enter your name" required>
+      </div>
+      <!-- Email Field -->
+      <div class="col-md-4 mb-3">
+        <label for="consultation-email" class="form-label">Email Address</label>
+        <input type="email" id="consultation-email" class="form-control" placeholder="Enter your email" required>
+      </div>
     </div>
+    <div class="row justify-content-center">
+      <!-- Contact Number Field -->
+      <div class="col-md-4 mb-3">
+        <label for="consultation-phone" class="form-label">Contact Number</label>
+        <input type="tel" id="consultation-phone" class="form-control" placeholder="Enter your contact number" required>
+      </div>
+      <!-- Date Picker -->
+      <div class="col-md-4 mb-3">
+        <label for="consultation-date" class="form-label">Select Date</label>
+        <input type="date" id="consultation-date" class="form-control" required>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- Time Picker -->
+      <div class="col-md-4 mb-3">
+        <label for="consultation-time" class="form-label">Select Time</label>
+        <input type="time" id="consultation-time" class="form-control" required>
+      </div>
+    </div>
+    <!-- Submit Button -->
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary btn-lg">Book Consultation</button>
+    </div>
+  </form>
+</div>  
 
   </div>
 </div>
