@@ -50,6 +50,10 @@ body, html {
   body {
     padding-top: 70px; /* Adjust this value based on the height of your navbar */
   }
+
+  html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+  }
   
   /* Header Styling */
   header {
@@ -58,10 +62,10 @@ body, html {
     text-align: center;
   }
   
-    header h1 {
+  header h1 {
         font-family: 'Playfair Display', serif;
         margin-bottom: 10px;
-    }  
+  }  
   header p.lead {
     font-size: 1.8rem;
     color: purple;
