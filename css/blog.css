@@ -75,6 +75,12 @@ h1 {
     color: black; /* Dark text for contrast */
     margin-bottom: 20px; /* Space below the lead paragraph */
 }
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem !important; /* Adjusted size for better visibility */
+    color: darkmagenta; /* Dark text for contrast */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
 
 .btn-primary {
     background-color: purple;
