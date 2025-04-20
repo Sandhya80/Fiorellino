@@ -124,3 +124,46 @@ footer .container{
         font-size: 1rem; /* Reduce card title size */
     }
 }
+
+/* Medium Devices (e.g., tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.4rem; /* Adjust font size for medium devices */
+    }
+
+    h1 {
+        font-size: 2.2rem; /* Adjust heading size */
+    }
+
+    .card-title {
+        font-size: 1.2rem; /* Adjust card title size */
+    }
+}
+/* Large Devices (e.g., desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 1.6rem; /* Adjust font size for large devices */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Adjust heading size */
+    }
+
+    .card-title {
+        font-size: 1.5rem; /* Adjust card title size */
+    }
+}
+/* Extra Large Devices (e.g., large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 1.8rem; /* Adjust font size for extra large devices */
+    }
+
+    h1 {
+        font-size: 3rem; /* Adjust heading size */
+    }
+
+    .card-title {
+        font-size: 1.8rem; /* Adjust card title size */
+    }
+}

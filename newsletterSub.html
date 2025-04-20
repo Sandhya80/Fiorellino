@@ -9,28 +9,39 @@
   <link rel="stylesheet" href="css/newsletterSub.css"> <!-- Link to the CSS file -->
 </head>
 <body>
-  <header>
-    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/homepage_imgs/Fiorellino_bigLogo.PNG" alt="Fiorellino Logo" width="45" height="40">
-          Fiorellino
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-            <li class="nav-item"><a class="nav-link active" href="newsletterSub.html">Newsletter</a></li>
-            <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <header>    
+     <!--container with no padding-->
+     <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">       
+    
+  <!--Add a button to toggle the navigation bar on small screens-->            
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+  <!--Move elements to the right in the nav-bar-->
+  <div class="mr-auto"></div>
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
+    <li class="nav-item"><a class="nav-link" aria-current="page" href="about.html">About Us</a></li>                
+    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="services" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="services/wedding.html">Wedding</a></li>
+    <li><a class="dropdown-item" href="services/corporate-events.html">Corporate Events</a></li>
+    <li><a class="dropdown-item" href="services/private-events.html">Private Events</a></li>
+    <li><a class="dropdown-item" href="services/holy-communions.html">Holy Communion</a></li>
+    <li><a class="dropdown-item" href="services/funeral-flowers.html">Funeral Flowers</a></li>
+  </ul>
+  </li>    
+    <li class="nav-item"><a class="nav-link" aria-current="page" href="portfolio.html">Portfolio</a></li>
+    <li class="nav-item"><a class="nav-link" aria-current="page" href="contactUs.html">Contact Us</a></li>          
+    <li class="nav-item"><a class="nav-link" aria-current="page" href="blog.html">Blog</a></li>
+    <li class="nav-item"><a class="nav-link active" aria-current="page" href="newsletterSub.html">Newsletter</a></li>                              
+  </ul>
+</div>
+</nav>
+</div>       
   </header>
 
   <div class="background-container">
