@@ -66,7 +66,7 @@ p {
     transition: background-color 0.3s ease;
 }
 .btn-primary:hover {
-    background-color: darkgreen; /* Darker green on hover */
+    background-color: darkorchid; /* Dark orchid on hover */
 }
 
 /* Blog Section Styling */
