@@ -2,43 +2,20 @@
 body, html {    
     box-sizing: border-box;
 }
-
-/* Navbar Styling */
-
-/* Navbar Styling */
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: lavenderblush; /* Matches the lavenderblush color */
-    height: 70px; /* Set a fixed height for the navbar */
-}
-.navbar-brand {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: purple; /* Dark text for contrast */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
 }
 
-.navbar-nav .nav-link {
-    color: purple; /* Matches the navbar text color */
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-    color: darkgreen; /* Adds a hover effect with a blue color */
-}
-/* Prevent Overlap with Fixed Navbar */
-body {
-    padding-top: 70px; /* Matches the navbar height */
+navbar {
+    background-color: lavenderblush; /* Light background for navbar */
+    padding: 10px 20px; /* Padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 /* Main Content Styling */
 main {
-    padding: 20px; /* Add padding for spacing */
+    padding-top: 70px; /* Space for fixed navbar */
+    padding-bottom: 20px; /* Space for footer */
     background-color: beige; /* Light background for contrast */
     min-height: calc(100vh - 70px); /* Ensure the main content fills the viewport minus the navbar height */
 }
@@ -67,6 +44,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem; /* Adjusted size for better visibility */
     color: purple; /* Dark text for contrast */
+    margin-top: 80px;
     margin-bottom: 20px; /* Space below the heading */
 }
 .lead {
@@ -115,6 +93,8 @@ footer .container{
     align-items: center;
     font-size: 1rem;
 }
+
+/* Responsive Design */
 
 /* Small Devices (e.g., phones, less than 576px) */
 @media (max-width: 575.98px) {
