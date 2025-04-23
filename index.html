@@ -52,6 +52,8 @@
           <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="newsletterSub.html">Newsletter</a></li>                              
         </ul>
+    <!-- Search bar in the navbar -->
+    <!-- Bootstrap's d-flex class for horizontal layout -->
     <form class="d-flex" role="search">
     <input class="search-bar me-2" type="search" placeholder="Search" aria-label="Search">
     <button class="btn btn-outline-success" type="submit">Search</button>
@@ -62,20 +64,21 @@
 </div>  
         
 <!-- Homepage Banner Section -->
+ <!-- No padding ensures full width of the viewport -->
 <div class="container-fluid p-0">
-  <div class="banner-section">
-  <div class="banner-overlay"></div>
-  <div class="container banner-content">
-    <h2 class="display-5">Fiorellino</h1>
+  <div class="banner-section"> <!--Full-width banner image with overlay text -->
+  <div class="banner-overlay"></div> <!-- Semi-transperant overlay for text visibility and visual appeal-->
+  <div class="container banner-content"> <!-- Centered text within the banner with consistent spacing -->
+    <h2 class="display-5">Fiorellino</h1> <!-- Bootstrap class for larger font size and bold style -->
     <h6 class="banner-spcontent">Blooming Elegance for every occasion!</h6>
-    <a href="contactUs.html" class="btn btn-primary btn-sm">Book a consultation</a>
+    <a href="contactUs.html" class="btn btn-primary btn-sm">Book a consultation</a> <!-- Call-to-action button -->
   </div>
   </div>
 </div>
   </header>
 
 <!--Welcome Section!-->
-<div class="container text-center mt-5">
+<div class="container text-center mt-5"> <!-- Centered text with consistent spacing and top margin -->
     <h2 class="welcome-section">Welcome to Fiorellino!</h2>
     <p class="lead">At Fiorellino, we specialize in creating breathtaking floral
             arrangements that enhance the beauty and elegance of every occasion.
@@ -93,6 +96,7 @@
 </div>
 
 <!-- Image Grid in Services Section -->
+<!-- Lazy loading of images to improve page performance-->
 <div class="container">
     <div class="image-grid">
         <div class="grid-item">
@@ -124,10 +128,11 @@
     <h2 class="text-center mb-4">Client Testimonials</h2>
     <div class="reviews-container">
     <div class="row">
-
+    
+    <!-- Bootstrap grid system layout-->
     <!-- Review 1 -->
-    <div class="col-12">
-        <div class="review-box">
+    <div class="col-12"> <!-- Full width for each review box to ensure visibility and readability -->
+        <div class="review-box"> <!-- Individual review box with consistent styling -->
             <h5 class="text-primary">🌸 Betty</h5>
             <div class="rating">⭐⭐⭐⭐⭐</div>
             <p>"Breathtaking! The floral arrangements at our wedding were beyond
@@ -187,22 +192,24 @@
 </div>
 
     <!--Call-for-action Section-->
-    <div class="container text-center my-5">
-        <h2 class="mb-3">Schedule Your Appointment Today!</h2>
+    <div class="container text-center my-5"> <!-- Centered text with consistent spacing and top margin -->
+        <h2 class="mb-3">Schedule Your Appointment Today!</h2> <!-- Call-to-action heading -->
         <p class="lead">Book your consultation with our experts now and get the best service.</p>
         <a href="contactUs.html" class="btn btn-primary btn-lg">Book an Appointment</a>
     </div>
 
-    <hr class="mt-5">
+
+    <hr class="mt-5"> <!-- Horizontal line to separate sections -->
+
     
     <!--Blog Section-->
-    <div class="container mt-4">
-      <h2 class="text-center mb-4">Our Latest Blog Posts</h2>
-        
+    <div class="container mt-4"> <!-- Centered text with consistent spacing and top margin -->        
+      <h2 class="text-center mb-4">Our Latest Blog Posts</h2> <!-- Blog section heading -->
+      
       <div class="row">
           <!-- Blog Post 1 -->
-          <div class="col-md-4 col-lg-2 mb-4">
-            <div class="card h-100">
+          <div class="col-md-4 col-lg-2 mb-4"> <!-- Bootstrap grid layout for col to span 4 out of 12 cols on medium screen, lg-2 reduces width to 2 on lrg screens, mb is the bottom margin -->
+            <div class="card h-100"> <!-- Card component for blog post with full height -->
                 <img loading="lazy" src="assets/homepage_imgs/seasonalflowers_blog.png" class="card-img-top" alt="Blog Image">
                 <div class="card-body">
                     <h5 class="card-title">Seasonal Floral Trends</h5>
@@ -284,16 +291,16 @@
     <hr class="mt-5">
 
     <!--Newsletter Subscription Section-->
-<div class="container my-5 text-center">
+<div class="container my-5 text-center"> <!-- my-5 adds vertical margin on both top and bottom -->
     <h2 class="mb-3">Subscribe to Our Newsletter</h2>
     <p class="lead">Stay updated with the latest floral trends, exclusive offers, and event styling tips.</p>
     <a href="newsletterSub.html" class="btn btn-primary btn-lg">Subscribe Now</a>
 </div>
     
-    <footer class="bg-dark text-light py-4">
+    <footer class="bg-dark text-light py-4"> <!-- Dark bg and light txt, py-4 adds vertical padding on top and bottom -->
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3"> <!-- 3 columns out of 12 on medium screens for footer links -->
                     <h5 class="footer-text">Company</h5>
                     <ul class="list-unstyled">
                         <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
@@ -338,7 +345,7 @@
                 <hr class="my-3">                
                 <div class="container">
                     <p class="footer-text">Follow us on:</p>
-                    <div class="icons justify-content-center gap-3">
+                    <div class="icons justify-content-center gap-3"> <!-- Flexbox for horizontal alignment and spacing -->
                         <link href="https://facebook.com" target="_blank" class="text-light">
                             <i class="fab fa-facebook fa-2x"></i>
                         <link href="https://twitter.com" target="_blank" class="text-light">
@@ -349,11 +356,13 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                     </div>
                 </div> 
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center"> <!-- Will span all 12 cols of bootstrap grid system when viewed on medium screens-->
                 <p class="footer-text">&copy; 2025 Fiorellino. All rights reserved.</p>           
             </div>
         </div>
-    </footer>    
+    </footer>  
+    
+    <!-- Bootstrap JS and dependencies for responsive design and interactivity -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
