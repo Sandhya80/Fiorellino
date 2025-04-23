@@ -90,3 +90,72 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 0.9rem;
 }
+
+/* Thank-you modal styling */
+.thank-you-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.thank-you-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.thank-you-modal-header {
+  padding: 2px 16px;
+  background-color: lavenderblush; /* Matches the homepage theme */
+  color: purple; /* Matches the homepage theme */
+}
+.thank-you-modal-body {
+  padding: 2px 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: beige;
+}
+.thank-you-modal-footer {
+  padding: 2px 16px;
+  background-color: lavenderblush; /* Matches the homepage theme */
+  color: purple; /* Matches the homepage theme */
+}
+.thank-you-modal-footer button {
+  background-color: purple; /* Matches the homepage theme */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.thank-you-modal-footer button:hover {
+  background-color: darkorchid; /* Slightly darker shade on hover */
+}
+/* Close button for the modal */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.large-icon {
+  font-size: 3rem; /* Size of the icon */
+  color: purple; /* Matches the homepage theme */
+  margin-bottom: 10px; /* Space below the icon */
+}
