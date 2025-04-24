@@ -6,24 +6,24 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 
 ## 🌟 Features
 
-- **Homepage**: A visually appealing landing page with a banner, featured services, testimonials, and blog snippets.
-- **Services Section**: Detailed pages for various services like weddings, corporate events, private events, and more.
-- **Testimonials**: A scrollable section showcasing client reviews and ratings.
-- **Blog Section**: Latest blog posts with links to a dedicated blog page.
-- **Contact Us**: A call-to-action section for booking consultations.
-- **Responsive Design**: Fully responsive and optimized for all devices (mobile, tablet, and desktop).
-- **Footer**: Includes company links, ethics, services, customer support, and social media icons.
+**Homepage**: A visually appealing landing page with a banner, featured services, testimonials, and blog snippets.
+**Services Section**: Detailed pages for various services like weddings, corporate events, private events, and more.
+**Testimonials**: A scrollable section showcasing client reviews and ratings.
+**Blog Section**: Latest blog posts with links to a dedicated blog page.
+**Contact Us**: A call-to-action section for booking consultations.
+**Responsive Design**: Fully responsive and optimized for all devices (mobile, tablet, and desktop).
+**Footer**: Includes company links, ethics, services, customer support, and social media icons.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling and layout.
-- **Bootstrap 5**: For responsive design and prebuilt components.
-- **Font Awesome**: For icons.
-- **Google Fonts**: For typography.
-- **JavaScript**: For interactivity and functionality.
+**HTML5**: For structuring the content.
+**CSS3**: For styling and layout.
+**Bootstrap 5**: For responsive design and prebuilt components.
+**Font Awesome**: For icons.
+**Google Fonts**: For typography.
+**JavaScript**: For interactivity and functionality.
 
 ---
 
@@ -91,8 +91,8 @@ This project is licensed strictly for **educational purposes only**. Any commerc
 
 ## 🙌 Credits
 
-- **Bootstrap**: For providing responsive design and prebuilt components. [Visit Bootstrap](https://getbootstrap.com/)
-- **Unsplash**: For the beautiful images used in the project. [Visit Unsplash](https://unsplash.com/)
+**Bootstrap**: For providing responsive design and prebuilt components. [Visit Bootstrap](https://getbootstrap.com/)
+**Unsplash**: For the beautiful images used in the project. [Visit Unsplash](https://unsplash.com/)
 📧 Contact:
 
 For any inquiries or feedback, feel free to reach out:
