@@ -103,6 +103,29 @@ Homepage/services for large screens:
 
 ---
 
+## 🐞 Bug Fixes
+
+Several issues were identified and resolved in the **Fiorellino Blog Page** to enhance performance, accessibility, best practices, and SEO:
+
+1. **Performance Improvements**:
+   - Added `loading="lazy"` to all images to enable lazy loading, reducing initial page load time.
+   - Used `defer` for non-critical JavaScript files to prevent render-blocking.
+
+2. **Accessibility Fixes**:
+   - Added descriptive `alt` attributes to all images for better screen reader support.
+   - Ensured proper ARIA roles for navigation elements.
+
+3. **Best Practices**:
+   - Replaced `<link>` tags in the footer with `<a>` tags for proper functionality.
+   - Added `rel="noopener noreferrer"` to external links to prevent security vulnerabilities.
+
+4. **SEO Enhancements**:
+   - Added structured data (`JSON-LD`) for the blog page to improve search engine visibility.
+   - Optimized meta tags with relevant keywords and descriptions.
+
+These fixes ensure a faster, more user-friendly, and SEO-optimized experience for visitors across all devices.
+
+---
 
 ## 📊 Performance
 
@@ -149,10 +172,16 @@ This project is licensed strictly for **educational purposes only**. Any commerc
 
 **Bootstrap**: For providing responsive design and prebuilt components. [Visit Bootstrap](https://getbootstrap.com/)
 **Unsplash**: For the beautiful images used in the project. [Visit Unsplash](https://unsplash.com/)
+**Github Copilot**: For bug fixes and overall performance enhancements.
+
+---
+
 📧 Contact:
 
 For any inquiries or feedback, feel free to reach out:
 
 Email: <sandhyaharsh@gmail.com>
+
+---
 
 Thank you for visiting Fiorellino! 🌺
