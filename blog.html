@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fiorellino Blog - Discover floral trends, styling tips, and behind-the-scenes stories from our expert florists.">
+    <meta name="description" content="Explore Fiorellino's blog for the latest floral trends, event styling tips, sustainable floristry, and behind-the-scenes stories from expert florists.">
+    <meta name="keywords" content="Fiorellino, Blog, Floral Trends, Event Styling, Sustainable Floristry, Florists, Flowers, Wedding Flowers, Event Planning">
+    <meta name="author" content="Fiorellino">
+    <meta name="robots" content="index, follow">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
      <!-- Font Awesome for Icons -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -13,7 +16,18 @@
      <!--Blog Css Stylesheet-->
      <link rel="stylesheet"href="css/blog.css">
     <title>Fiorellino Blog</title>
+    <!-- Structured Data for better SEO performance -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          "name": "Fiorellino Blog",
+          "description": "Discover floral trends, styling tips, and behind-the-scenes stories from our expert florists.",
+          "url": "https://sandhya80.github.io/Fiorellino/blog.html"
+        }
+    </script>        
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <header>
@@ -58,7 +72,7 @@
             <!-- Blog Post 1 -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="assets/homepage_imgs/seasonalflowers_blog.png" class="card-img-top" alt="Seasonal Floral Trends">
+                    <img loading="lazy" src="assets/homepage_imgs/seasonalflowers_blog.png" class="card-img-top" alt="Image of Seasonal Floral Trends">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Seasonal Floral Trends</h5>
                         <p class="card-text">Discover the latest floral trends for 2025, including popular color palettes and arrangement styles.</p>
@@ -72,7 +86,7 @@
             <!-- Blog Post 2 -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="assets/homepage_imgs/behindscenes_blog.png" class="card-img-top" alt="Behind-the-Scenes">
+                    <img loading="lazy" src="assets/homepage_imgs/behindscenes_blog.png" class="card-img-top" alt="Image of Behind the Scenes">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Behind-the-Scenes</h5>
                         <p class="card-text">Take a peek into our creative process, from consultations to event setups.</p>
@@ -86,7 +100,7 @@
             <!-- Blog Post 3 -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="assets/homepage_imgs/clientstory_blog.png" class="card-img-top" alt="Client Stories">
+                    <img loading="lazy" src="assets/homepage_imgs/clientstory_blog.png" class="card-img-top" alt="Image of Client Events">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Client Stories</h5>
                         <p class="card-text">Read testimonials and stories from our satisfied clients about their experiences.</p>
@@ -100,7 +114,7 @@
             <!-- Blog Post 4 -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="assets/homepage_imgs/floraldesign_blog.jpeg" class="card-img-top" alt="Floral Design Principles">
+                    <img loading="lazy" src="assets/homepage_imgs/floraldesign_blog.jpeg" class="card-img-top" alt="Image showing Floral Design Principles">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Floral Design Principles</h5>
                         <p class="card-text">Learn about balance, proportion, and harmony in floral arrangements.</p>
@@ -114,7 +128,7 @@
             <!-- Blog Post 5 -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="assets/homepage_imgs/eventstyle_blog.png" class="card-img-top" alt="Event Styling Tips">
+                    <img loading="lazy" src="assets/homepage_imgs/eventstyle_blog.png" class="card-img-top" alt="Images for Event Styling Tips">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Event Styling Tips</h5>
                         <p class="card-text">Coordinate floral designs with event themes, color schemes, and venues.</p>
@@ -128,7 +142,7 @@
             <!-- Blog Post 6 -->
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="assets/homepage_imgs/sustainability_blog.png" class="card-img-top" alt="Sustainable Floristry">
+                    <img loading="lazy" src="assets/homepage_imgs/sustainability_blog.png" class="card-img-top" alt="Images for Sustainable Floristry">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Sustainable Floristry</h5>
                         <p class="card-text">Explore eco-friendly practices in floral design and sustainable materials.</p>
@@ -151,14 +165,18 @@
     <div>
         <p class="footer-text">Follow us on:</p>
         <div class="icons justify-content-center gap-3">
-            <link href="https://facebook.com" target="_blank" class="text-light">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="text-light" title="Visit our Facebook page">
               <i class="fab fa-facebook fa-2x"></i>
-            <link href="https://twitter.com" target="_blank" class="text-light">
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-light" title="Visit our Twitter page">
               <i class="fab fa-twitter fa-2x"></i>        
-            <link href="https://instagram.com" target="_blank" class="text-light">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="text-light" title="Visit our Instagram page">
               <i class="fab fa-instagram fa-2x"></i>
-            <link href="https://linkedin.com" target="_blank" class="text-light">
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-light" title="Visit our LinkedIn page">
               <i class="fab fa-linkedin fa-2x"></i>
+            </a>
         </div>
     </div>
     <div>               
@@ -171,6 +189,7 @@
     <!-- Bootstrap JS Bundle with Popper.js for responsive navbar -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   
+    <!-- Used defer for non-critical JS file for better performance -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   
 </body>
 </html>
