@@ -98,7 +98,13 @@ This project is optimized for fast loading times and smooth user experience acro
 
 1. **Lighthouse Performance Report**:
 
-![lighthouse-performance](https://github.com/user-attachments/assets/performance/lighthouse-performance.png)
+For Smaller Screen(Mobile devices)
+
+![lighthouse-performance](assets\ReadMe_imgs\mb-performScore.PNG)
+
+For Larger Screen(Tablet & Desktop)
+
+![lighthouse-performance](assets\ReadMe_imgs\lg-performScore.PNG)
 
 2. **Page Load Time**:
 
