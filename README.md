@@ -69,41 +69,45 @@ Check out the live version of the website here: <https://sandhya80.github.io/Fio
 
 📸 Screenshots
 
-For Small Screens:
+1. For Small Screens:
 
-1. Homepage banner for small screens:
+Homepage banner for small screens:
 
 ![sm-home](assets/ReadMe_imgs/sm-home.PNG)
 
-1. Homepage/services for small screens:
+Homepage/services for small screens:
 
 ![sm-services](assets/ReadMe_imgs/sm-services.PNG)
 
 
-For Medium Screens:
+2. For Medium Screens:
 
-1. Homepage banner for medium screens:
+Homepage banner for medium screens:
 
 ![md-home](assets/ReadMe_imgs/md-home.PNG)
 
-1. Homepage/services for medium screens:
+Homepage/services for medium screens:
 
 ![md-services](assets/ReadMe_imgs/md-services.PNG)
 
 
-For Large Screens:
+3. For Large Screens:
 
-1. Homepage banner for large screens:
+Homepage banner for large screens:
 
 ![lg-home](assets/ReadMe_imgs/lg-home.PNG)
 
-1. Homepage/services for large screens:
+Homepage/services for large screens:
 
 ![lg-services](assets/ReadMe_imgs/lg-services.PNG)
 
 ---
-For Larger Screens (Tablet & Desktop - tested with Chrome extensions)
+
+
 ## 📊 Performance
+
+For Larger Screens (Tablet & Desktop - tested with Chrome extensions)
+
 ![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.png)
 This project is optimized for fast loading times and smooth user experience across all devices. Below are the performance metrics and screenshots showcasing the results:
 
@@ -118,19 +122,19 @@ This project is optimized for fast loading times and smooth user experience acro
 
 1. **Lighthouse Performance Report**:
 
-For Smaller Screen(Mobile devices - on InCognito mode)
+For Smaller Screen (Mobile devices - on InCognito mode)
 
 ![lighthouse-performance](assets/ReadMe_imgs/mb-performScore.PNG)
 
-For Larger Screen(Tablet & Desktop - with Chrome extensions)
+For Larger Screen (Tablet & Desktop - with Chrome extensions)
 
 ![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.PNG)
 
-1. **Page Load Time**:
+2. **Page Load Time**:
 
 ![page-load-time](assets/ReadMe_imgs/lg-overallPerform.PNG)
 
-2. **Mobile Responsiveness Test**:
+3. **Mobile Responsiveness Test**:
 
 ![mobile-responsiveness](assets/ReadMe_imgs/mb-overallPerform.PNG)
 
