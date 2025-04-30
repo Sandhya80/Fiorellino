@@ -131,7 +131,7 @@ These fixes ensure a faster, more user-friendly, and SEO-optimized experience fo
 
 For Larger Screens (Tablet & Desktop - tested with Chrome extensions)
 
-![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.png)
+![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.PNG)
 This project is optimized for fast loading times and smooth user experience across all devices. Below are the performance metrics and screenshots showcasing the results:
 
 ### Lighthouse Performance Report
