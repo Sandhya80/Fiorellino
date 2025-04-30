@@ -27,6 +27,12 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 
 ---
 
+## 🤖 AI Influence on Workflow
+
+AI tools like GitHub Copilot significantly enhanced the development process by streamlining bug fixes, optimizing performance, and improving accessibility and SEO. It provided intelligent code suggestions, automated repetitive tasks, and ensured adherence to best practices, resulting in a more efficient workflow and a polished final product.
+
+---
+
 ## 📂 Folder Structure
 
 Fiorellino/
@@ -105,7 +111,7 @@ Homepage/services for large screens:
 
 ## 🐞 Bug Fixes
 
-Several issues were identified and resolved in the **Fiorellino Blog Page** to enhance performance, accessibility, best practices, and SEO:
+Several issues were identified and resolved in the **Fiorellino Blog Page** with the help of Github copilot to enhance performance, accessibility, best practices, and SEO:
 
 1. **Performance Improvements**:
    - Added `loading="lazy"` to all images to enable lazy loading, reducing initial page load time.
@@ -158,6 +164,21 @@ For Larger Screen (Tablet & Desktop - with Chrome extensions)
 
 ![mobile-responsiveness](assets/ReadMe_imgs/mb-overallPerform.PNG)
 
+---
+
+## 🌱 Future Enhancements
+
+1. **E-commerce Integration**: Add an online store for purchasing floral arrangements and event packages.
+2. **User Accounts**: Enable user registration and login for personalized experiences and order tracking.
+3. **Advanced Blog Features**: Include a commenting system and social sharing options for blog posts.
+4. **Multilingual Support**: Provide content in multiple languages to cater to a global audience.
+5. **AI-Powered Recommendations**: Implement AI to suggest floral arrangements based on user preferences and occasions.
+6. **Event Booking System**: Add a calendar-based booking system for scheduling consultations and events.
+7. **Newsletter Subscription**: Allow users to subscribe to newsletters for updates and promotions.
+
+These enhancements aim to improve user engagement, functionality, and global reach.
+
+---
 
 ## 📜 License
 
