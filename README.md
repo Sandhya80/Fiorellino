@@ -53,35 +53,61 @@ For Small Screens:
 
 1. Homepage banner for small screens:
 
-![sm-home](https://github.com/user-attachments/assets/b4f4e67a-bdf5-473c-bffc-4dcf4029a442)
+![sm-home](assets\ReadMe_imgs\sm-home.PNG)
 
 2. Homepage/services for small screens:
 
-![sm-services](https://github.com/user-attachments/assets/3e107af3-fa18-41ab-95ab-1f53627a61e0)
+![sm-services](assets\ReadMe_imgs\sm-services.PNG)
 
 
 For Medium Screens:
 
 1. Homepage banner for medium screens:
 
-![md-home](https://github.com/user-attachments/assets/3cb5362c-5c38-4568-b44a-b8a06725113d)
+![md-home](assets\ReadMe_imgs\md-home.PNG)
 
 2. Homepage/services for medium screens:
 
-![md-services](https://github.com/user-attachments/assets/dbfbe054-d878-424c-adc0-27024d2ab7a8)
+![md-services](assets\ReadMe_imgs\md-services.PNG)
 
 
 For Large Screens:
 
 1. Homepage banner for large screens:
 
-![lg-home](https://github.com/user-attachments/assets/ad52365a-85b5-4ba4-ae70-8d49276b92d9)
+![lg-home](assets\ReadMe_imgs\lg-home.PNG)
 
 2. Homepage/services for large screens:
 
-![lg-services](https://github.com/user-attachments/assets/1b94fb4a-40f8-4845-b2c9-88f5ef45602f)
+![lg-services](assets\ReadMe_imgs\lg-services.PNG)
 
 ---
+
+## 📊 Performance
+
+This project is optimized for fast loading times and smooth user experience across all devices. Below are the performance metrics and screenshots showcasing the results:
+
+### Lighthouse Performance Report
+
+1. **Performance Score**: Achieved a high performance score on Google Lighthouse.
+2. **Accessibility**: Ensures accessibility for all users.
+3. **Best Practices**: Adheres to modern web development standards.
+4. **SEO**: Optimized for search engines.
+
+### Screenshots
+
+1. **Lighthouse Performance Report**:
+
+![lighthouse-performance](https://github.com/user-attachments/assets/performance/lighthouse-performance.png)
+
+2. **Page Load Time**:
+
+![page-load-time](https://github.com/user-attachments/assets/performance/page-load-time.png)
+
+3. **Mobile Responsiveness Test**:
+
+![mobile-responsiveness](https://github.com/user-attachments/assets/performance/mobile-responsiveness.png)
+
 
 ## 📜 License
 
