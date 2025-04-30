@@ -29,7 +29,27 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 
 ## 📂 Folder Structure
 
-Fiorellino/ │ ├── index.html # Homepage ├── about.html # About Us page ├── blog.html # Blog page ├── contactUs.html # Contact Us page ├── services/ # Folder for service-specific pages │ ├── wedding.html │ ├── corporate-events.html │ ├── private-events.html │ ├── holy-communions.html │ └── funeral-flowers.html ├── css/ # Stylesheets │ ├── styles.css │ ├── blog.css │ └── responsive.css ├── assets/ # Images and other assets │ ├── homepage_imgs/ │ ├── blog_imgs/ │ └── service_imgs/ └── js/ # JavaScript files └── main.js
+Fiorellino/
+├── index.html               # Homepage
+├── about.html               # About Us page
+├── blog.html                # Blog page
+├── contactUs.html           # Contact Us page
+├── services/                # Folder for service-specific pages
+│   ├── wedding.html
+│   ├── corporate-events.html
+│   ├── private-events.html
+│   ├── holy-communions.html
+│   └── funeral-flowers.html
+├── css/                     # Stylesheets
+│   ├── styles.css
+│   ├── blog.css
+│   └── responsive.css
+├── assets/                  # Images and other assets
+│   ├── homepage_imgs/
+│   ├── blog_imgs/
+│   └── service_imgs/
+└── js/                      # JavaScript files
+	└── main.js
 
 ---
 
@@ -55,7 +75,7 @@ For Small Screens:
 
 ![sm-home](assets/ReadMe_imgs/sm-home.PNG)
 
-2. Homepage/services for small screens:
+1. Homepage/services for small screens:
 
 ![sm-services](assets/ReadMe_imgs/sm-services.PNG)
 
@@ -66,7 +86,7 @@ For Medium Screens:
 
 ![md-home](assets/ReadMe_imgs/md-home.PNG)
 
-2. Homepage/services for medium screens:
+1. Homepage/services for medium screens:
 
 ![md-services](assets/ReadMe_imgs/md-services.PNG)
 
@@ -77,14 +97,14 @@ For Large Screens:
 
 ![lg-home](assets/ReadMe_imgs/lg-home.PNG)
 
-2. Homepage/services for large screens:
+1. Homepage/services for large screens:
 
 ![lg-services](assets/ReadMe_imgs/lg-services.PNG)
 
 ---
-
+For Larger Screens (Tablet & Desktop - tested with Chrome extensions)
 ## 📊 Performance
-
+![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.png)
 This project is optimized for fast loading times and smooth user experience across all devices. Below are the performance metrics and screenshots showcasing the results:
 
 ### Lighthouse Performance Report
@@ -106,11 +126,11 @@ For Larger Screen(Tablet & Desktop - with Chrome extensions)
 
 ![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.PNG)
 
-2. **Page Load Time**:
+1. **Page Load Time**:
 
 ![page-load-time](assets/ReadMe_imgs/lg-overallPerform.PNG)
 
-3. **Mobile Responsiveness Test**:
+2. **Mobile Responsiveness Test**:
 
 ![mobile-responsiveness](assets/ReadMe_imgs/mb-overallPerform.PNG)
 
