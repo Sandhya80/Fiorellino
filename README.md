@@ -98,21 +98,21 @@ This project is optimized for fast loading times and smooth user experience acro
 
 1. **Lighthouse Performance Report**:
 
-For Smaller Screen(Mobile devices)
+For Smaller Screen(Mobile devices - on InCognito mode)
 
 ![lighthouse-performance](assets\ReadMe_imgs\mb-performScore.PNG)
 
-For Larger Screen(Tablet & Desktop)
+For Larger Screen(Tablet & Desktop - with Chrome extensions)
 
 ![lighthouse-performance](assets\ReadMe_imgs\lg-performScore.PNG)
 
 2. **Page Load Time**:
 
-![page-load-time](https://github.com/user-attachments/assets/performance/page-load-time.png)
+![page-load-time](assets\ReadMe_imgs\lg-overallPerform.PNG)
 
 3. **Mobile Responsiveness Test**:
 
-![mobile-responsiveness](https://github.com/user-attachments/assets/performance/mobile-responsiveness.png)
+![mobile-responsiveness](assets\ReadMe_imgs\mb-overallPerform.PNG)
 
 
 ## 📜 License
