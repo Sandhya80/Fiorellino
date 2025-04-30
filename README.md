@@ -53,33 +53,33 @@ For Small Screens:
 
 1. Homepage banner for small screens:
 
-![sm-home](assets\ReadMe_imgs\sm-home.PNG)
+![sm-home](assets/ReadMe_imgs/sm-home.PNG)
 
 2. Homepage/services for small screens:
 
-![sm-services](assets\ReadMe_imgs\sm-services.PNG)
+![sm-services](assets/ReadMe_imgs/sm-services.PNG)
 
 
 For Medium Screens:
 
 1. Homepage banner for medium screens:
 
-![md-home](assets\ReadMe_imgs\md-home.PNG)
+![md-home](assets/ReadMe_imgs/md-home.PNG)
 
 2. Homepage/services for medium screens:
 
-![md-services](assets\ReadMe_imgs\md-services.PNG)
+![md-services](assets/ReadMe_imgs/md-services.PNG)
 
 
 For Large Screens:
 
 1. Homepage banner for large screens:
 
-![lg-home](assets\ReadMe_imgs\lg-home.PNG)
+![lg-home](assets/ReadMe_imgs/lg-home.PNG)
 
 2. Homepage/services for large screens:
 
-![lg-services](assets\ReadMe_imgs\lg-services.PNG)
+![lg-services](assets/ReadMe_imgs/lg-services.PNG)
 
 ---
 
@@ -100,19 +100,19 @@ This project is optimized for fast loading times and smooth user experience acro
 
 For Smaller Screen(Mobile devices - on InCognito mode)
 
-![lighthouse-performance](assets\ReadMe_imgs\mb-performScore.PNG)
+![lighthouse-performance](assets/ReadMe_imgs/mb-performScore.PNG)
 
 For Larger Screen(Tablet & Desktop - with Chrome extensions)
 
-![lighthouse-performance](assets\ReadMe_imgs\lg-performScore.PNG)
+![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.PNG)
 
 2. **Page Load Time**:
 
-![page-load-time](assets\ReadMe_imgs\lg-overallPerform.PNG)
+![page-load-time](assets/ReadMe_imgs/lg-overallPerform.PNG)
 
 3. **Mobile Responsiveness Test**:
 
-![mobile-responsiveness](assets\ReadMe_imgs\mb-overallPerform.PNG)
+![mobile-responsiveness](assets/ReadMe_imgs/mb-overallPerform.PNG)
 
 
 ## 📜 License
