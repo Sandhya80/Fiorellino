@@ -4,6 +4,27 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 
 ---
 
+## 📑 Table of Contents
+
+1. [Features](#-features)
+2. [Technologies Used](#-technologies-used)
+3. [AI Influence on Workflow](#-ai-influence-on-workflow)
+4. [Color Palette](#-color-palette)
+5. [Folder Structure](#-folder-structure)
+6. [How to Run the Project](#-how-to-run-the-project)
+7. [Live Demo](#-live-demo)
+8. [Screenshots](#-screenshots)
+9. [Bug Fixes](#-bug-fixes)
+10. [Validation Methods](#-validation-methods)
+11. [Performance](#-performance)
+12. [Limitations](#-limitations)
+13. [Future Enhancements](#-future-enhancements)
+14. [License](#-license)
+15. [Credits](#-credits)
+16. [Contact](#-contact)
+
+---
+
 ## 🌟 Features
 
 **Homepage**: A visually appealing landing page with a banner, featured services, testimonials, and blog snippets.
@@ -30,6 +51,24 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 ## 🤖 AI Influence on Workflow
 
 AI tools like GitHub Copilot significantly enhanced the development process by streamlining bug fixes, optimizing performance, and improving accessibility and SEO. It provided intelligent code suggestions, automated repetitive tasks, and ensured adherence to best practices, resulting in a more efficient workflow and a polished final product.
+
+---
+
+## 🎨 Color Palette
+
+The Fiorellino website uses the following color palette to create an elegant and visually appealing design:
+
+| Color Name         | Hex Code   | Usage                                   |
+|--------------------|------------|-----------------------------------------|
+| **Floral Pink**    | `#FFC0CB`  | Highlights, buttons, and accents        |
+| **Pastel Green**   | `#98FB98`  | Backgrounds and subtle sections         |
+| **Ivory White**    | `#FFFFF0`  | Main background color                   |
+| **Charcoal Gray**  | `#333333`  | Text and headings                       |
+| **Soft Gold**      | `#FFD700`  | Decorative elements and icons           |
+| **Light Lavender** | `#E6E6FA`  | Secondary backgrounds and hover effects |
+| **Deep Burgundy**  | `#800020`  | Footer background and strong accents    |
+
+This palette ensures a cohesive and elegant aesthetic, reflecting the brand's floral and sophisticated theme.
 
 ---
 
@@ -133,6 +172,21 @@ These fixes ensure a faster, more user-friendly, and SEO-optimized experience fo
 
 ---
 
+## ✅ Validation Methods
+
+To ensure the Fiorellino website adheres to modern web standards and delivers an optimal user experience, the following validation methods were used:
+
+1. **HTML Validation**: Verified using [W3C Markup Validation Service](https://validator.w3.org/) to ensure semantic and error-free HTML code.
+2. **CSS Validation**: Checked with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to confirm proper syntax and compatibility.
+3. **Performance Testing**: Conducted using Google Lighthouse to optimize loading times, reduce render-blocking resources, and improve overall performance.
+4. **Accessibility Testing**: Evaluated with Lighthouse and [Wave Accessibility Tool](https://wave.webaim.org/) to ensure compliance with WCAG standards.
+5. **Best Practices**: Assessed through Lighthouse to adhere to modern web development standards and security practices.
+6. **SEO Validation**: Optimized and tested with Lighthouse to ensure proper meta tags, structured data, and search engine visibility.
+
+These validation methods guarantee a high-quality, user-friendly, and accessible website for all users.
+
+---
+
 ## 📊 Performance
 
 This project is optimized for fast loading times and smooth user experience across all devices. Below are the performance metrics and screenshots showcasing the results:
@@ -163,6 +217,20 @@ For Larger Screen (Tablet & Desktop - with Chrome extensions)
 3. **Mobile Responsiveness Test**:
 
 ![mobile-responsiveness](assets/ReadMe_imgs/mb-overallPerform.PNG)
+
+---
+
+## ⚠️ Limitations
+
+- The website currently lacks **e-commerce functionality** for purchasing floral arrangements and event packages.
+- **User accounts** and personalized features, such as order tracking, are not yet implemented.
+- The blog section does not include **interactive features** like commenting or social sharing.
+- **Multilingual support** is unavailable, limiting accessibility for a global audience.
+- No **AI-powered recommendations** are in place to suggest floral arrangements based on user preferences.
+- The absence of a **calendar-based event booking system** restricts scheduling consultations directly on the website.
+- **Newsletter subscription** functionality is not yet integrated for user engagement.
+
+These limitations will be addressed in future updates to enhance the website's functionality and user experience.
 
 ---
 
