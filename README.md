@@ -5,7 +5,7 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 ---
 
 ## 📑 Table of Contents
-```markdown
+
 1. [🌟 Features](#-features)
 2. [🛠️ Technologies Used](#-technologies-used)
 3. [🤖 AI Influence on Workflow](#-ai-influence-on-workflow)
@@ -23,7 +23,7 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 15. [📜 License](#-license)
 16. [🙌 Credits](#-credits)
 17. [📧 Contact](#-contact)
-```
+
 
 ---
 
