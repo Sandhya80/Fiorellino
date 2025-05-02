@@ -5,25 +5,24 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 ---
 
 ## 📑 Table of Contents
-
 ```markdown
-1. [Features](#-features)
-2. [Technologies Used](#-technologies-used)
-3. [AI Influence on Workflow](#-ai-influence-on-workflow)
-4. [Color Palette](#-color-palette)
-5. [Folder Structure](#-folder-structure)
-6. [How to Run the Project](#-how-to-run-the-project)
-7. [Live Demo](#-live-demo)
-8. [Screenshots](#-screenshots)
-9. [Bug Fixes](#-bug-fixes)
-10. [Validation Methods](#-validation-methods)
-11. [Validation Screenshots](#-validation-screenshots)
-12. [Performance](#-performance)
-13. [Limitations](#-limitations)
-14. [Future Enhancements](#-future-enhancements)
-15. [License](#-license)
-16. [Credits](#-credits)
-17. [Contact](#-contact)
+1. [🌟 Features](#-features)
+2. [🛠️ Technologies Used](#-technologies-used)
+3. [🤖 AI Influence on Workflow](#-ai-influence-on-workflow)
+4. [🎨 Color Palette](#-color-palette)
+5. [📂 Folder Structure](#-folder-structure)
+6. [🚀 How to Run the Project](#-how-to-run-the-project)
+7. [🌐 Live Demo](#-live-demo)
+8. [📸 Screenshots](#-screenshots)
+9. [🐞 Bug Fixes](#-bug-fixes)
+10. [✅ Validation Methods](#-validation-methods)
+11. [🖼️ Validation Screenshots](#-validation-screenshots)
+12. [📊 Performance](#-performance)
+13. [⚠️ Limitations](#-limitations)
+14. [🌱 Future Enhancements](#-future-enhancements)
+15. [📜 License](#-license)
+16. [🙌 Credits](#-credits)
+17. [📧 Contact](#-contact)
 ```
 
 ---
