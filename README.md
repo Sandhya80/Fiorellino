@@ -6,23 +6,27 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 
 ## 📑 Table of Contents
 
+```markdown
 1. [Features](#-features)
-2. [Technologies Used](#️-technologies-used)
+2. [Technologies Used](#-technologies-used)
 3. [AI Influence on Workflow](#-ai-influence-on-workflow)
 4. [Color Palette](#-color-palette)
 5. [Folder Structure](#-folder-structure)
 6. [How to Run the Project](#-how-to-run-the-project)
-7. [Live Demo](#🌐-live-demo)
-8. [Screenshots](#screenshots)
-9. [Bug Fixes](#🐞-bug-fixes)
-10. [Validation Methods](#️-validation-methods)
-11. [Validation Screenshots](#️-validation-screenshots)
+7. [Live Demo](#-live-demo)
+8. [Screenshots](#-screenshots)
+9. [Bug Fixes](#-bug-fixes)
+10. [Validation Methods](#-validation-methods)
+11. [Validation Screenshots](#-validation-screenshots)
 12. [Performance](#-performance)
-13. [Limitations](#️-limitations)
+13. [Limitations](#-limitations)
 14. [Future Enhancements](#-future-enhancements)
 15. [License](#-license)
 16. [Credits](#-credits)
-17. [Contact](#📧-contact)
+17. [Contact](#-contact)
+```
+
+---
 
 ## 🌟 Features
 
@@ -108,10 +112,14 @@ cd fiorellino
 
 Open index.html in your browser to view the website.
 
+---
+
 🌐 Live Demo
 Check out the live version of the website here: <https://sandhya80.github.io/Fiorellino/>
 
-📸 Screenshots
+---
+
+## 📸 Screenshots
 
 1. For Small Screens:
 
@@ -195,6 +203,7 @@ Below are the screenshots showcasing the validation results for HTML and CSS:
 2. **CSS Validation**: Checked with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
 ![CSS Validation](assets/ReadMe_imgs/css_validation.PNG)
+
 ---
 
 ## 📊 Performance
@@ -272,7 +281,7 @@ This project is licensed strictly for **educational purposes only**. Any commerc
 
 ---
 
-📧 Contact:
+## 📧 Contact
 
 For any inquiries or feedback, feel free to reach out:
 
