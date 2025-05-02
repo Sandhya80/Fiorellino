@@ -7,23 +7,22 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 ## 📑 Table of Contents
 
 1. [Features](#-features)
-2. [Technologies Used](#-technologies-used)
+2. [Technologies Used](#️-technologies-used)
 3. [AI Influence on Workflow](#-ai-influence-on-workflow)
 4. [Color Palette](#-color-palette)
 5. [Folder Structure](#-folder-structure)
 6. [How to Run the Project](#-how-to-run-the-project)
-7. [Live Demo](#-live-demo)
-8. [Screenshots](#-screenshots)
-9. [Bug Fixes](#-bug-fixes)
-10. [Validation Methods](#-validation-methods)
-11. [Performance](#-performance)
-12. [Limitations](#-limitations)
-13. [Future Enhancements](#-future-enhancements)
-14. [License](#-license)
-15. [Credits](#-credits)
-16. [Contact](#-contact)
-
----
+7. [Live Demo](#🌐-live-demo)
+8. [Screenshots](#📸-screenshots)
+9. [Bug Fixes](#🐞-bug-fixes)
+10. [Validation Methods](#✅-validation-methods)
+11. [Validation Screenshots](#🖼️-validation-screenshots)
+12. [Performance](#📊-performance)
+13. [Limitations](#⚠️-limitations)
+14. [Future Enhancements](#🌱-future-enhancements)
+15. [License](#📜-license)
+16. [Credits](#🙌-credits)
+17. [Contact](#📧-contact)
 
 ## 🌟 Features
 
@@ -94,7 +93,7 @@ Fiorellino/
 │   ├── blog_imgs/
 │   └── service_imgs/
 └── js/                      # JavaScript files
-	└── main.js
+ └── main.js
 
 ---
 
@@ -124,7 +123,6 @@ Homepage/services for small screens:
 
 ![sm-services](assets/ReadMe_imgs/sm-services.PNG)
 
-
 2. For Medium Screens:
 
 Homepage banner for medium screens:
@@ -134,7 +132,6 @@ Homepage banner for medium screens:
 Homepage/services for medium screens:
 
 ![md-services](assets/ReadMe_imgs/md-services.PNG)
-
 
 3. For Large Screens:
 
@@ -185,6 +182,19 @@ To ensure the Fiorellino website adheres to modern web standards and delivers an
 
 These validation methods guarantee a high-quality, user-friendly, and accessible website for all users.
 
+---
+
+## 🖼️ Validation Screenshots
+
+Below are the screenshots showcasing the validation results for HTML and CSS:
+
+1. **HTML Validation**: Verified using [W3C Markup Validation Service](https://validator.w3.org/).
+
+![HTML Validation](assets/ReadMe_imgs/html_validation.PNG)
+
+2. **CSS Validation**: Checked with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+![CSS Validation](assets/ReadMe_imgs/css_validation.PNG)
 ---
 
 ## 📊 Performance
