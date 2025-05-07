@@ -25,3 +25,114 @@ body {
 p {
     color: darkred;
 }
+
+/* Team Carousel Styling */
+.team-carousel {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.team-img {
+    width: 60px; /* Set the size of the circular images */
+    height: 60px; /* Ensure the height matches the width */
+    object-fit: cover; /* Ensure the image fits within the circle */
+    border-radius: 50%; /* Make the images perfectly round */
+    border: 3px solid #FFFFFF; /* Add a white border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    margin: 0 auto; /* Center the image */
+}
+
+.carousel-inner h5 {
+    font-family: 'Playfair Display', serif; /* Elegant font for names */
+    color: #800020; /* Deep Burgundy color */
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.carousel-inner p {
+    font-family: 'Roboto', sans-serif;
+    color: #555555; /* Subtle gray for roles */
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+/* Carousel Controls Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #800020; /* Deep Burgundy for controls */
+    border-radius: 50%; /* Circular controls */
+    padding: 10px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #FFC0CB; /* Floral Pink on hover */
+}
+
+
+/* Responsive Styling for Team Carousel */
+
+/* For tablets and smaller devices (width <= 768px) */
+@media (max-width: 768px) {
+    .team-img {
+        width: 70px; /* Reduce the size of the circular images */
+        height: 70px; /* Ensure the height matches the width */
+    }
+
+    .carousel-inner h5 {
+        font-size: 1rem; /* Reduce the font size for names */
+        margin-top: 1rem; /* Adjust spacing */
+    }
+
+    .carousel-inner p {
+        font-size: 0.8rem; /* Reduce the font size for roles */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        padding: 8px; /* Reduce the size of the controls */
+    }
+}
+
+/* For mobile devices (width <= 576px) */
+@media (max-width: 576px) {
+    .team-img {
+        width: 60px; /* Further reduce the size of the circular images */
+        height: 60px; /* Ensure the height matches the width */
+    }
+
+    .carousel-inner h5 {
+        font-size: 0.9rem; /* Further reduce the font size for names */
+    }
+
+    .carousel-inner p {
+        font-size: 0.7rem; /* Further reduce the font size for roles */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        padding: 6px; /* Further reduce the size of the controls */
+    }
+}
+
+/* For larger screens (width > 1200px) */
+@media (min-width: 1200px) {
+    .team-img {
+        width: 100px; /* Increase the size of the circular images */
+        height: 100px; /* Ensure the height matches the width */
+    }
+
+    .carousel-inner h5 {
+        font-size: 1.5rem; /* Increase the font size for names */
+        margin-top: 1.5rem; /* Adjust spacing */
+    }
+
+    .carousel-inner p {
+        font-size: 1rem; /* Increase the font size for roles */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        padding: 12px; /* Increase the size of the controls */
+    }
+}
