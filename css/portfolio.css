@@ -13,4 +13,119 @@ body {
     text-align: center;
     color: purple;
 }
- 
+
+/* Portfolio Section Styling */
+.portfolio-section {
+    font-family: 'Playfair Display', serif;
+    color: #800020; /* Deep Burgundy */
+    margin-bottom: 2rem;
+}
+
+.portfolio-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #333333; /* Dark Gray */
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* General Body Styling */
+body {
+    background-color: #f9f9f9; /* Light background for a clean look */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Portfolio Section Styling */
+.portfolio-section {
+    font-family: 'Playfair Display', serif;
+    color: #800020; /* Deep Burgundy */
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.portfolio-section h1 {
+    font-size: 2.5rem;
+    color: #800020; /* Deep Burgundy */
+    margin-bottom: 1rem;
+}
+
+.portfolio-section p {
+    font-size: 1.2rem;
+    color: #555555; /* Subtle gray for text */
+    margin-bottom: 2rem;
+}
+
+/* Portfolio Name Styling */
+.portfolio-name {
+    font-size: 1.8rem;
+    color: purple; /* Purple for headings */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Image Grid Styling */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 1.5rem; /* Space between grid items */
+    margin-top: 1rem;
+    justify-items: center; /* Center align grid items */
+}
+
+.grid-item {
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    text-align: center; /* Center align text under images */
+}
+
+.grid-item img {
+    width: 100%; /* Make images responsive */
+    height: 100%; /* Ensure images fill the grid item */
+    object-fit: cover; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+.grid-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.grid-item img:hover {
+    transform: scale(1.1); /* Zoom in the image slightly */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .portfolio-section h1 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .portfolio-name {
+        font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    }
+
+    .image-grid {
+        gap: 1rem; /* Reduce spacing between grid items */
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-section h1 {
+        font-size: 1.8rem; /* Further reduce font size for mobile devices */
+    }
+
+    .portfolio-name {
+        font-size: 1.2rem; /* Further reduce heading size for mobile devices */
+    }
+
+    .grid-item {
+        border-radius: 5px; /* Reduce border radius for smaller screens */
+    }
+}
