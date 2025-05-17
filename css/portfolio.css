@@ -68,39 +68,6 @@ body {
     text-align: center;
 }
 
-/* Image Grid Styling */
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
-    gap: 1.5rem; /* Space between grid items */
-    margin-top: 1rem;
-    justify-items: center; /* Center align grid items */
-}
-
-.grid-item {
-    overflow: hidden;
-    border-radius: 10px; /* Rounded corners for images */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-    text-align: center; /* Center align text under images */
-}
-
-.grid-item img {
-    width: 100%; /* Make images responsive */
-    height: 100%; /* Ensure images fill the grid item */
-    object-fit: cover; /* Maintain aspect ratio */
-    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
-}
-
-.grid-item:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-}
-
-.grid-item img:hover {
-    transform: scale(1.1); /* Zoom in the image slightly */
-}
-
 /* Responsive Styling */
 @media (max-width: 768px) {
     .portfolio-section h1 {
@@ -128,4 +95,16 @@ body {
     .grid-item {
         border-radius: 5px; /* Reduce border radius for smaller screens */
     }
+}
+
+.img-fluid.rounded {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    object-fit: cover;
+}
+
+.img-fluid.rounded:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
