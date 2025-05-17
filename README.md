@@ -11,7 +11,7 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 3. [🤖 AI Influence on Workflow](#-ai-influence-on-workflow)
 4. [🎨 Color Palette](#-color-palette)
 5. [📂 Folder Structure](#-folder-structure)
-6. [🚀 How to Run the Project](#-how-to-run-the-project)
+6. [🚀 How to Run the Project](#how-to-run-the-project)
 7. [🌐 Live Demo](#-live-demo)
 8. [📸 Screenshots](#-screenshots)
 9. [🌸 Functionalities and User Benefits](#-functionalities-and-user-benefits)
@@ -79,8 +79,7 @@ This palette ensures a cohesive and elegant aesthetic, reflecting the brand's fl
 
 ## 📂 Folder Structure
 
-```
-Fiorellino/
+```Fiorellino/
 ├── index.html               # Homepage
 ├── about.html               # About Us page
 ├── blog.html                # Blog page
@@ -101,8 +100,6 @@ Fiorellino/
 │   └── service_imgs/
 └── js/                      # JavaScript files
     └── main.js
-```
-
 ---
 
 ## 🚀 How to Run the Project
@@ -114,7 +111,7 @@ Fiorellino/
    cd fiorellino
    ```
 
-2. Open `index.html` in your browser to view the website.
+1. Open `index.html` in your browser to view the website.
 
 ---
 
