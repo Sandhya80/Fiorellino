@@ -7,47 +7,49 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 ## 📑 Table of Contents
 
 1. [🌟 Features](#-features)
-2. [🛠️ Technologies Used](#-technologies-used)
+2. [🛠️ Technologies Used](#️-technologies-used)
 3. [🤖 AI Influence on Workflow](#-ai-influence-on-workflow)
 4. [🎨 Color Palette](#-color-palette)
 5. [📂 Folder Structure](#-folder-structure)
 6. [🚀 How to Run the Project](#-how-to-run-the-project)
 7. [🌐 Live Demo](#-live-demo)
 8. [📸 Screenshots](#-screenshots)
-9. [🌸 Functionalities and User Benefits](#-functionalities-and-user-benefits)  
-10. [🐞 Bug Fixes](#-bug-fixes)  
-11. [✅ Validation Methods](#-validation-methods)  
-12. [🖼️ Validation Screenshots](#-validation-screenshots)  
-13. [📊 Performance](#-performance)  
-14. [⚠️ Limitations](#-limitations)  
-15. [🌱 Future Enhancements](#-future-enhancements)  
-16. [📜 License](#-license)  
-17. [🙌 Credits](#-credits)  
-18. [📧 Contact](#-contact)  
-
+9. [🌸 Functionalities and User Benefits](#-functionalities-and-user-benefits)
+10. [🐞 Bug Fixes](#-bug-fixes)
+11. [✅ Validation Methods](#-validation-methods)
+12. [🖼️ Validation Screenshots](#️-validation-screenshots)
+13. [📊 Performance](#-performance)
+14. [⚠️ Limitations](#️-limitations)
+15. [🌱 Future Enhancements](#-future-enhancements)
+16. [📜 License](#-license)
+17. [🙌 Credits](#-credits)
+18. [📧 Contact](#-contact)
 
 ---
 
 ## 🌟 Features
 
-**Homepage**: A visually appealing landing page with a banner, featured services, testimonials, and blog snippets.
-**Services Section**: Detailed pages for various services like weddings, corporate events, private events, and more.
-**Testimonials**: A scrollable section showcasing client reviews and ratings.
-**Blog Section**: Latest blog posts with links to a dedicated blog page.
-**Contact Us**: A call-to-action section for booking consultations.
-**Responsive Design**: Fully responsive and optimized for all devices (mobile, tablet, and desktop).
-**Footer**: Includes company links, ethics, services, customer support, and social media icons.
+- **Homepage**: A visually appealing landing page with a banner, featured services, testimonials, and blog snippets.
+- **Homepage Carousel**: A responsive carousel showcasing featured floral arrangements and highlights.
+- **About Us Carousel**: A team carousel on the About Us page, fully responsive and perfectly rounded for all viewports.
+- **Services Section**: Detailed pages for various services like weddings, corporate events, private events, and more.
+- **Testimonials**: A scrollable section showcasing client reviews and ratings.
+- **Blog Section**: Latest blog posts with links to a dedicated blog page.
+- **Contact Us**: A call-to-action section for booking consultations.
+- **Responsive Design**: Fully responsive and optimized for all devices (mobile, tablet, and desktop).
+- **Footer**: Includes company links, ethics, services, customer support, and social media icons.
+- **Login/Registration Pop-up**: A custom login and registration modal for "My Account" accessible from the footer, allowing users to register or log in with a notification for activation code sent on registration.
 
 ---
 
 ## 🛠️ Technologies Used
 
-**HTML5**: For structuring the content.
-**CSS3**: For styling and layout.
-**Bootstrap 5**: For responsive design and prebuilt components.
-**Font Awesome**: For icons.
-**Google Fonts**: For typography.
-**JavaScript**: For interactivity and functionality.
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling and layout.
+- **Bootstrap 5**: For responsive design and prebuilt components.
+- **Font Awesome**: For icons.
+- **Google Fonts**: For typography.
+- **JavaScript**: For interactivity and functionality.
 
 ---
 
@@ -77,6 +79,7 @@ This palette ensures a cohesive and elegant aesthetic, reflecting the brand's fl
 
 ## 📂 Folder Structure
 
+```
 Fiorellino/
 ├── index.html               # Homepage
 ├── about.html               # About Us page
@@ -97,7 +100,8 @@ Fiorellino/
 │   ├── blog_imgs/
 │   └── service_imgs/
 └── js/                      # JavaScript files
- └── main.js
+    └── main.js
+```
 
 ---
 
@@ -105,23 +109,24 @@ Fiorellino/
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/sandhya80.github.io/fiorellino.git
-cd fiorellino
-```
+   ```bash
+   git clone https://github.com/sandhya80.github.io/fiorellino.git
+   cd fiorellino
+   ```
 
-Open index.html in your browser to view the website.
+2. Open `index.html` in your browser to view the website.
 
 ---
 
-🌐 Live Demo
-Check out the live version of the website here: <https://sandhya80.github.io/Fiorellino/>
+## 🌐 Live Demo
+
+Check out the live version of the website here: [https://sandhya80.github.io/Fiorellino/](https://sandhya80.github.io/Fiorellino/)
 
 ---
 
 ## 📸 Screenshots
 
-1. For Small Screens:
+**For Small Screens:**
 
 Homepage banner for small screens:
 
@@ -131,7 +136,7 @@ Homepage/services for small screens:
 
 ![sm-services](assets/ReadMe_imgs/sm-services.PNG)
 
-2. For Medium Screens:
+**For Medium Screens:**
 
 Homepage banner for medium screens:
 
@@ -141,7 +146,7 @@ Homepage/services for medium screens:
 
 ![md-services](assets/ReadMe_imgs/md-services.PNG)
 
-3. For Large Screens:
+**For Large Screens:**
 
 Homepage banner for large screens:
 
@@ -157,10 +162,13 @@ Homepage/services for large screens:
 
 - **Visually Appealing Banner**: Captures user attention with a high-quality floral image and a call-to-action button for quick navigation.
 - **Featured Services Section**: Highlights key services like weddings, corporate events, and private celebrations, making it easy for users to explore offerings.
+- **Homepage Carousel**: Engages users with a dynamic, responsive carousel of featured floral arrangements.
+- **About Us Carousel**: Introduces the team with a responsive, perfectly rounded carousel for all viewports.
 - **Testimonials Section**: Displays client reviews in a scrollable format, building trust and credibility with potential customers.
 - **Blog Snippets**: Showcases the latest blog posts with links to detailed articles, keeping users engaged with fresh content.
 - **Responsive Design**: Ensures seamless browsing across devices (mobile, tablet, and desktop), enhancing user experience.
 - **Quick Contact Section**: Includes a "Contact Us" call-to-action for easy booking of consultations or inquiries.
+- **Login/Registration Pop-up**: Allows users to log in or register for a "My Account" directly from the footer, with a notification for activation code sent on registration.
 
 These features provide an intuitive and engaging experience, helping users quickly find the information they need.
 
@@ -168,7 +176,7 @@ These features provide an intuitive and engaging experience, helping users quick
 
 ## 🐞 Bug Fixes
 
-Several issues were identified and resolved in the **Fiorellino Blog Page** with the help of Github copilot to enhance performance, accessibility, best practices, and SEO:
+Several issues were identified and resolved in the **Fiorellino Blog Page** with the help of GitHub Copilot to enhance performance, accessibility, best practices, and SEO:
 
 1. **Performance Improvements**:
    - Added `loading="lazy"` to all images to enable lazy loading, reducing initial page load time.
@@ -211,11 +219,11 @@ Below are the screenshots showcasing the validation results for HTML and CSS:
 
 1. **HTML Validation**: Verified using [W3C Markup Validation Service](https://validator.w3.org/).
 
-![HTML Validation](assets/ReadMe_imgs/html_validation.PNG)
+   ![HTML Validation](assets/ReadMe_imgs/html_validation.PNG)
 
 2. **CSS Validation**: Checked with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
-![CSS Validation](assets/ReadMe_imgs/css_validation.PNG)
+   ![CSS Validation](assets/ReadMe_imgs/css_validation.PNG)
 
 ---
 
@@ -232,23 +240,23 @@ This project is optimized for fast loading times and smooth user experience acro
 
 ### Screenshots
 
-1. **Lighthouse Performance Report**:
+- **Lighthouse Performance Report**:
 
-For Smaller Screen (Mobile devices - on InCognito mode)
+  For Smaller Screen (Mobile devices - on Incognito mode):
 
-![lighthouse-performance](assets/ReadMe_imgs/mb-performScore.PNG)
+  ![lighthouse-performance](assets/ReadMe_imgs/mb-performScore.PNG)
 
-For Larger Screen (Tablet & Desktop - with Chrome extensions)
+  For Larger Screen (Tablet & Desktop - with Chrome extensions):
 
-![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.PNG)
+  ![lighthouse-performance](assets/ReadMe_imgs/lg-performScore.PNG)
 
-2. **Page Load Time**:
+- **Page Load Time**:
 
-![page-load-time](assets/ReadMe_imgs/lg-overallPerform.PNG)
+  ![page-load-time](assets/ReadMe_imgs/lg-overallPerform.PNG)
 
-3. **Mobile Responsiveness Test**:
+- **Mobile Responsiveness Test**:
 
-![mobile-responsiveness](assets/ReadMe_imgs/mb-overallPerform.PNG)
+  ![mobile-responsiveness](assets/ReadMe_imgs/mb-overallPerform.PNG)
 
 ---
 
@@ -288,9 +296,9 @@ This project is licensed strictly for **educational purposes only**. Any commerc
 
 ## 🙌 Credits
 
-**Bootstrap**: For providing responsive design and prebuilt components. [Visit Bootstrap](https://getbootstrap.com/)
-**Unsplash**: For the beautiful images used in the project. [Visit Unsplash](https://unsplash.com/)
-**Github Copilot**: For bug fixes and overall performance enhancements.
+- **Bootstrap**: For providing responsive design and prebuilt components. [Visit Bootstrap](https://getbootstrap.com/)
+- **Unsplash**: For the beautiful images used in the project. [Visit Unsplash](https://unsplash.com/)
+- **GitHub Copilot**: For bug fixes and overall performance enhancements.
 
 ---
 
