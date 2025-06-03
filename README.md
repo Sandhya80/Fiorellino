@@ -234,7 +234,7 @@ Below are the screenshots showcasing the validation results for HTML and CSS:
 
    ![CSS Validation](assets/ReadMe_imgs/css_validation.PNG)
 
-3. **JS Validation**: JavaScript was validated using [JSHint](https://jshint.com/) and [ESLint](https://eslint.org/) for code quality and error checking.
+3. **JS Validation**: JavaScript was validated using [JSHint](https://jshint.com/) and [ESLint](https://eslint.org/) for code quality and error checking. ![JS Validation](assets/ReadMe_imgs/JSHint.PNG)
 
 ---
 
