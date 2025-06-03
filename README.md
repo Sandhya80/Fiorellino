@@ -4,26 +4,41 @@ Welcome to **Fiorellino**, a beautifully designed website for showcasing breatht
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live version of the website here:  
+[https://sandhya80.github.io/Fiorellino/](https://sandhya80.github.io/Fiorellino/)
+
+---
+
+## 📸 Homepage Screenshot
+
+![Fiorellino Homepage](assets/ReadMe_imgs/lg-home.PNG)
+
+---
+
 ## 📑 Table of Contents
 
-1. [🌟 Features](#-features)
-2. [🛠️ Technologies Used](#️-technologies-used)
-3. [🤖 AI Influence on Workflow](#-ai-influence-on-workflow)
-4. [🎨 Color Palette](#-color-palette)
-5. [📂 Folder Structure](#-folder-structure)
-6. [🚀 How to Run the Project](#how-to-run-the-project)
-7. [🌐 Live Demo](#-live-demo)
-8. [📸 Screenshots](#-screenshots)
-9. [🌸 Functionalities and User Benefits](#-functionalities-and-user-benefits)
-10. [🐞 Bug Fixes](#-bug-fixes)
-11. [✅ Validation Methods](#-validation-methods)
-12. [🖼️ Validation Screenshots](#️-validation-screenshots)
-13. [📊 Performance](#-performance)
-14. [⚠️ Limitations](#️-limitations)
-15. [🌱 Future Enhancements](#-future-enhancements)
-16. [📜 License](#-license)
-17. [🙌 Credits](#-credits)
-18. [📧 Contact](#-contact)
+1. [🌐 Live Demo](#-live-demo)
+2. [📸 Homepage Screenshot](#-homepage-screenshot)
+3. [🌟 Features](#-features)
+4. [🛠️ Technologies Used](#️-technologies-used)
+5. [🤖 AI Influence on Workflow](#-ai-influence-on-workflow)
+6. [🎨 Color Palette](#-color-palette)
+7. [📂 Folder Structure](#-folder-structure)
+8. [🚀 How to Run the Project](#-how-to-run-the-project)
+9. [📸 Screenshots](#screenshots)
+10. [🌸 Functionalities and User Benefits](#functionalities-and-user-benefits)
+11. [🐞 Bug Fixes](#-bug-fixes)
+12. [✅ Validation Methods](#-validation-methods)
+13. [🖼️ Validation Screenshots](#️-validation-screenshots)
+14. [📊 Performance](#-performance)
+15. [⚠️ Limitations](#️-limitations)
+16. [🌱 Future Enhancements](#-future-enhancements)
+17. [📜 License](#license)
+18. [🙌 Credits](#-credits)
+19. [📧 Contact](#-contact)
+20. [💻 JavaScript Integration](#-javascript-integration)
 
 ---
 
@@ -79,7 +94,8 @@ This palette ensures a cohesive and elegant aesthetic, reflecting the brand's fl
 
 ## 📂 Folder Structure
 
-```Fiorellino/
+```plaintext
+Fiorellino/
 ├── index.html               # Homepage
 ├── about.html               # About Us page
 ├── blog.html                # Blog page
@@ -100,6 +116,8 @@ This palette ensures a cohesive and elegant aesthetic, reflecting the brand's fl
 │   └── service_imgs/
 └── js/                      # JavaScript files
     └── main.js
+```markdown
+
 ---
 
 ## 🚀 How to Run the Project
@@ -109,15 +127,9 @@ This palette ensures a cohesive and elegant aesthetic, reflecting the brand's fl
    ```bash
    git clone https://github.com/sandhya80.github.io/fiorellino.git
    cd fiorellino
-   ```
+   ```markdown
 
 1. Open `index.html` in your browser to view the website.
-
----
-
-## 🌐 Live Demo
-
-Check out the live version of the website here: [https://sandhya80.github.io/Fiorellino/](https://sandhya80.github.io/Fiorellino/)
 
 ---
 
@@ -308,3 +320,64 @@ Email: <sandhyaharsh@gmail.com>
 ---
 
 Thank you for visiting Fiorellino! 🌺
+
+---
+
+## 💻 JavaScript Integration
+
+The project now includes a dedicated JavaScript file:  
+**`js/script.js`**
+
+### Features & Logic Implemented
+
+#### 1. Modal Functionality for "My Account"
+
+- Handles opening and closing of the login/register modal from the footer.
+- Allows switching between login and registration sections within the modal.
+- Closes the modal when clicking outside the modal content.
+- Demo form submissions for login and registration, with alert feedback.
+
+#### 2. Service Card Flip Animation
+
+- Enables interactive flipping of service cards on the Services page.
+- Ensures only one card is flipped at a time for a clean user experience.
+
+#### 3. Newsletter Subscription Modal
+
+- Handles the display of a "Thank You" modal upon successful newsletter subscription form submission.
+
+#### 4. Navbar Search Functionality
+
+- Implements a search bar in the navbar.
+- Highlights the first matching keyword found on the page.
+- Alerts the user if no results are found.
+
+#### 5. Contact Us Booking Form
+
+- Handles form validation and submission for the booking form.
+- Displays a confirmation modal upon successful submission.
+- Resets the form after submission and provides validation feedback if the form is incomplete.
+
+---
+
+### File Structure (Relevant to JavaScript)
+
+/js
+  └── script.js
+---
+
+### How to Use
+
+- All JavaScript logic is included via `js/script.js` and is automatically loaded on each page.
+- No additional configuration is required.
+
+---
+
+### Credits
+
+- Bootstrap for modal and UI components.
+- Font Awesome for icons.
+
+---
+
+For more details on each feature, please refer to the code comments in `js/script.js`.
