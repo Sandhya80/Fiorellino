@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO meta tags for better search engine visibility -->
     <meta name="description" content="Explore Fiorellino's blog for the latest floral trends, event styling tips, sustainable floristry, and behind-the-scenes stories from expert florists.">
     <meta name="keywords" content="Fiorellino, Blog, Floral Trends, Event Styling, Sustainable Floristry, Florists, Flowers, Wedding Flowers, Event Planning">
     <meta name="author" content="Fiorellino">
     <meta name="robots" content="index, follow">
+    <!-- Bootstrap CSS for responsive design -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-     <!-- Font Awesome for Icons -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap">
-     <!--Generic Css Stylesheet-->
-     <link rel="stylesheet"href="css/styles.css">
-     <!--Blog Css Stylesheet-->
-     <link rel="stylesheet"href="css/blog.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap">
+    <!-- Generic Css Stylesheet -->
+    <link rel="stylesheet"href="css/styles.css">
+    <!-- Blog-specific Css Stylesheet -->
+    <link rel="stylesheet"href="css/blog.css">
     <title>Fiorellino Blog</title>
     <!-- Structured Data for better SEO performance -->
     <script type="application/ld+json">
@@ -31,33 +33,34 @@
 <body>
     <!-- Navigation Bar -->
     <header>
-    <!--container with no padding-->
+        <!-- Container with no padding for full-width navbar -->
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg fixed-top">
-                <!-- Add a button to toggle the navigation bar on small screens -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <!-- Move elements to the right in the nav-bar -->
-                        <div class="mr-auto"></div>
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="blog.html">Blog</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
+                <!-- Button to toggle the navigation bar on small screens -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Move elements to the right in the nav-bar -->
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
     
-        <!-- Add padding to prevent content overlap -->
+    <!-- Main Blog Content Section -->
+    <!-- Add padding to prevent content overlap with fixed navbar -->
     <main class="container my-5">
         <h1 class="text-center mb-4">Fiorellino Blog</h1>
-        <p class="text-center">Explore our latest blog posts for floral trends, event styling tips, and behind-the-scenes stories.</p>
+        <p class="lead">Explore our latest blog posts for floral trends, event styling tips, and behind-the-scenes stories.</p>
 
         <div class="row">
             <!-- Blog Post 1 -->
@@ -66,9 +69,9 @@
                     <img loading="lazy" src="assets/homepage_imgs/seasonalflowers_blog.png" class="card-img-top" alt="Image of Seasonal Floral Trends">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Seasonal Floral Trends</h5>
-                        <p class="card-text">Discover the latest floral trends for 2025, including popular color palettes and arrangement styles.</p>
+                        <p class="lead">Discover the latest floral trends for 2025, including popular color palettes and arrangement styles.</p>
                         <div class="mt-auto">
-                        <a href="blog_pages.html#seasonal-trends" class="btn btn-primary btn-sm" title="Read more about Seasonal Floral Trends, including popular color palettes and arrangement styles for 2025">Read More</a>
+                            <a href="blog_pages.html#seasonal-trends" class="btn btn-primary btn-sm" title="Read more about Seasonal Floral Trends, including popular color palettes and arrangement styles for 2025">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -80,9 +83,9 @@
                     <img loading="lazy" src="assets/homepage_imgs/behindscenes_blog.png" class="card-img-top" alt="Image of Behind the Scenes">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Behind-the-Scenes</h5>
-                        <p class="card-text">Take a peek into our creative process, from consultations to event setups.</p>
+                        <p class="lead">Take a peek into our creative process, from consultations to event setups.</p>
                         <div class="mt-auto">
-                        <a href="blog_pages.html#behind-the-scenes" class="btn btn-primary btn-sm" title="Read more about Behind-the-Scenes, including our creative process from consultations to event setups">Read More</a>
+                            <a href="blog_pages.html#behind-the-scenes" class="btn btn-primary btn-sm" title="Read more about Behind-the-Scenes, including our creative process from consultations to event setups">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -94,9 +97,9 @@
                     <img loading="lazy" src="assets/homepage_imgs/clientstory_blog.png" class="card-img-top" alt="Image of Client Events">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Client Stories</h5>
-                        <p class="card-text">Read testimonials and stories from our satisfied clients about their experiences.</p>
+                        <p class="lead">Read testimonials and stories from our satisfied clients about their experiences.</p>
                         <div class="mt-auto">
-                        <a href="blog_pages.html#client-stories" class="btn btn-primary btn-sm" title="Read more about Client Stories and testimonials from satisfied clients sharing their experiences with Fiorellino">Read More</a>
+                            <a href="blog_pages.html#client-stories" class="btn btn-primary btn-sm" title="Read more about Client Stories and testimonials from satisfied clients sharing their experiences with Fiorellino">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -108,9 +111,9 @@
                     <img loading="lazy" src="assets/homepage_imgs/floraldesign_blog.jpeg" class="card-img-top" alt="Image showing Floral Design Principles">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Floral Design Principles</h5>
-                        <p class="card-text">Learn about balance, proportion, and harmony in floral arrangements.</p>
+                        <p class="lead">Learn about balance, proportion, and harmony in floral arrangements.</p>
                         <div class="mt-auto">
-                        <a href="blog_pages.html#floral-design-principles" class="btn btn-primary btn-sm" title="Learn more about Floral Design Principles including balance, proportion, and harmony in floral arrangements">Read More</a>
+                            <a href="blog_pages.html#floral-design-principles" class="btn btn-primary btn-sm" title="Learn more about Floral Design Principles including balance, proportion, and harmony in floral arrangements">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -122,9 +125,9 @@
                     <img loading="lazy" src="assets/homepage_imgs/eventstyle_blog.png" class="card-img-top" alt="Images for Event Styling Tips">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Event Styling Tips</h5>
-                        <p class="card-text">Coordinate floral designs with event themes, color schemes, and venues.</p>
+                        <p class="lead">Coordinate floral designs with event themes, color schemes, and venues.</p>
                         <div class="mt-auto">
-                        <a href="blog_pages.html#event-styling-tips" class="btn btn-primary btn-sm" title="Read more about Event Styling Tips to coordinate floral designs with event themes, color schemes, and venues">Read More</a>
+                            <a href="blog_pages.html#event-styling-tips" class="btn btn-primary btn-sm" title="Read more about Event Styling Tips to coordinate floral designs with event themes, color schemes, and venues">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -136,9 +139,9 @@
                     <img loading="lazy" src="assets/homepage_imgs/sustainability_blog.png" class="card-img-top" alt="Images for Sustainable Floristry">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Sustainable Floristry</h5>
-                        <p class="card-text">Explore eco-friendly practices in floral design and sustainable materials.</p>
+                        <p class="lead">Explore eco-friendly practices in floral design and sustainable materials.</p>
                         <div class="mt-auto">
-                        <a href="blog_pages.html#sustainable-floristry" class="btn btn-primary btn-sm" title="Read more about Sustainable Floristry and eco-friendly practices in floral design">Read More</a>
+                            <a href="blog_pages.html#sustainable-floristry" class="btn btn-primary btn-sm" title="Read more about Sustainable Floristry and eco-friendly practices in floral design">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -146,33 +149,32 @@
         </div>
     </main>
 
-    <!--Call-for-action Section-->
+    <!-- Call-for-action Section for booking appointments -->
     <div class="container text-center my-5">
         <h2 class="mb-3">Book an Appointment Today!</h2>        
         <a href="contactUs.html" class="btn btn-primary btn-lg">Book now</a>
     </div>    
 
-    <!-- Footer Section -->
-     <footer class="bg-dark text-light py-4">                             
-                <div class="container">
-                    <p class="footer-text">Follow us on:</p>
-                    <div class="icons justify-content-center gap-3">
-                        <link href="https://facebook.com" target="_blank" class="text-light">
-                            <i class="fab fa-facebook fa-2x"></i>
-                        <link href="https://twitter.com" target="_blank" class="text-light">
-                            <i class="fab fa-twitter fa-2x"></i>        
-                        <link href="https://instagram.com" target="_blank" class="text-light">
-                            <i class="fab fa-instagram fa-2x"></i>
-                        <link href="https://linkedin.com" target="_blank" class="text-light">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                    </div>
-                </div> 
-                <div class="col-md-12 text-center">
-                <p class="footer-text">&copy; 2025 Fiorellino. All rights reserved.</p>           
+    <!-- Footer Section with social icons and copyright -->
+    <footer class="bg-dark text-light py-4">                             
+        <div class="container">
+            <p class="footer-text">Follow us on:</p>
+            <div class="icons justify-content-center gap-3">
+                <!-- Social media icons for footer -->
+                <link href="https://facebook.com" target="_blank" class="text-light">
+                    <i class="fab fa-facebook fa-2x"></i>
+                <link href="https://twitter.com" target="_blank" class="text-light">
+                    <i class="fab fa-twitter fa-2x"></i>        
+                <link href="https://instagram.com" target="_blank" class="text-light">
+                    <i class="fab fa-instagram fa-2x"></i>
+                <link href="https://linkedin.com" target="_blank" class="text-light">
+                    <i class="fab fa-linkedin fa-2x"></i>
             </div>
+        </div> 
+        <div class="col-md-12 text-center">
+            <p class="footer-text">&copy; 2025 Fiorellino. All rights reserved.</p>           
         </div>
     </footer>     
-
 
     <!-- Bootstrap JS Bundle with Popper.js for responsive navbar -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
