@@ -1,53 +1,31 @@
-body {
-    background-color: beige;
-}
-.portfolio-section {
-    padding: 80px 0 20px 0;
-    font-weight: bold;
-}
-
-/* Add styles or remove the empty ruleset */
-.portfolio-name {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    color: purple;
-}
-
-/* Portfolio Section Styling */
-.portfolio-section {
-    font-family: 'Playfair Display', serif;
-    color: #800020; /* Deep Burgundy */
-    margin-bottom: 2rem;
-}
-
-.portfolio-name {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    color: #333333; /* Dark Gray */
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
 /* General Body Styling */
 body {
-    background-color: #f9f9f9; /* Light background for a clean look */
+    background-color: white; /* Light background for a clean look */
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Portfolio Section Styling */
+/*portfolio section styles*/
 .portfolio-section {
     font-family: 'Playfair Display', serif;
     color: #800020; /* Deep Burgundy */
-    margin-bottom: 2rem;
+    padding: 40px 0 20px 0;
+    font-size: 40px;
     text-align: center;
-    padding: 2rem 0;
+    margin-bottom: 2rem;
 }
-
-.portfolio-section h1 {
+/* Portfolio Name Styling */
+.portfolio-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: purple;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.portfolio-section h2 {
     font-size: 2.5rem;
     color: #800020; /* Deep Burgundy */
     margin-bottom: 1rem;
@@ -58,16 +36,6 @@ body {
     color: #555555; /* Subtle gray for text */
     margin-bottom: 2rem;
 }
-
-/* Portfolio Name Styling */
-.portfolio-name {
-    font-size: 1.8rem;
-    color: purple; /* Purple for headings */
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
 /* Responsive Styling */
 @media (max-width: 768px) {
     .portfolio-section h1 {

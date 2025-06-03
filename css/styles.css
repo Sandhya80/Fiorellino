@@ -1,6 +1,7 @@
 /* Generic Styles */
 body {
-    background-color: beige;
+    background-color: white;
+    font-family: 'Roboto', Arial, sans-serif !important; /* Default font */
 }
 
 /* Navbar Section */
@@ -21,7 +22,17 @@ body {
 /* Restricting searchbar from growing too much */
 .d-flex .search-bar {
     flex: 8 6 200px; 
-}        
+}  
+/* Search Highlight */ 
+.search-highlight {
+  background: yellow;
+  color: #212529;
+  font-weight: bold;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Banner Section */     
  .banner-section {
     background:url('../assets/homepage_imgs/homepage_banner.JPG') no-repeat center center;
     background-size: cover;
@@ -194,6 +205,7 @@ p {
     font-weight: bold;    
     font-style: normal;
     color: blueviolet!important;
+    text-decoration: none; /* No underline */
 } 
 
 .text-start {

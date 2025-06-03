@@ -1,10 +1,16 @@
 body {
-    background-color: beige;
+    background-color: white; /* Light background for a clean look */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .about-section {
-    padding: 80px 0 20px 0;
-    font-size: 48px;
-    color: purple;
+    font-family: 'Playfair Display', serif;
+    color: #800020; /* Deep Burgundy */
+    padding: 40px 0 20px 0;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 /* Add styles or remove the empty ruleset */
 .about-section-name {
@@ -17,13 +23,15 @@ body {
     text-align: center;
     text-transform: none;   
 }
-.lead {
-    font-size: 30px;
-    color: darkgreen;
-}
-
 p {
     color: darkred;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.lead {
+    font-size: 30px;
+    color: purple; /* Deep Burgundy */
+    
 }
 
 /* Team Carousel Styling */
