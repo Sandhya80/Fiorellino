@@ -70,3 +70,72 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+// Flip card logic: only one card flipped at a time
+document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.service-card');
+    let flippedCard = null;
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+            if (flippedCard && flippedCard !== card) {
+                flippedCard.classList.remove('flipped');
+            }
+            card.classList.toggle('flipped');
+            flippedCard = card.classList.contains('flipped') ? card : null;
+        });
+    });
+  });
+
+  // Function to show the Thank You modal
+    function showThankYouModal(event) {
+      event.preventDefault(); // Prevent the form from submitting
+      const thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
+      thankYouModal.show();
+    }
+
+// Search functionality for the navbar
+
+    document.addEventListener('DOMContentLoaded', function() {
+  const searchForm = document.getElementById('navbarSearchForm');
+  const searchInput = document.getElementById('navbarSearchInput');
+
+  if (searchForm && searchInput) {
+    searchForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const keyword = searchInput.value.trim().toLowerCase();
+      if (!keyword) return;
+
+      // Remove previous highlights
+      document.querySelectorAll('.search-highlight').forEach(el => {
+        el.classList.remove('search-highlight');
+      });
+
+      // Search in all visible text nodes
+      let found = false;
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+      while (walker.nextNode()) {
+        const node = walker.currentNode;
+        if (
+          node.parentElement &&
+          !['SCRIPT', 'STYLE', 'NOSCRIPT'].includes(node.parentElement.tagName) &&
+          node.nodeValue.toLowerCase().includes(keyword)
+        ) {
+          // Highlight the first match
+          const span = document.createElement('span');
+          span.className = 'search-highlight';
+          const idx = node.nodeValue.toLowerCase().indexOf(keyword);
+          span.textContent = node.nodeValue.substr(idx, keyword.length);
+          const after = node.splitText(idx);
+          after.nodeValue = after.nodeValue.substr(keyword.length);
+          node.parentElement.insertBefore(span, after);
+          span.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        alert('No results found for "' + keyword + '" on this page.');
+      }
+    });
+  }
+});
