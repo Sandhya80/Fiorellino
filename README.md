@@ -1,48 +1,48 @@
-# Fiorellino - Event Florist Website 🌸
+# Fiorellino - Event Florist Website
 
 Welcome to **Fiorellino**, a beautifully designed website for showcasing breathtaking floral arrangements for weddings, corporate events, and special celebrations. This project is built to provide an elegant and user-friendly experience for visitors, highlighting the services, testimonials, blog posts, and more.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 Check out the live version of the website here:  
 [https://sandhya80.github.io/Fiorellino/](https://sandhya80.github.io/Fiorellino/)
 
 ---
 
-## 📸 Homepage Screenshot
+## Homepage Screenshot
 
 ![Fiorellino Homepage](assets/ReadMe_imgs/lg-home.PNG)
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-1. [🌐 Live Demo](#-live-demo)
-2. [📸 Homepage Screenshot](#-homepage-screenshot)
-3. [🌟 Features](#-features)
-4. [🛠️ Technologies Used](#️-technologies-used)
-5. [🤖 AI Influence on Workflow](#-ai-influence-on-workflow)
-6. [🎨 Color Palette](#-color-palette)
-7. [📂 Folder Structure](#-folder-structure)
-8. [🚀 How to Run the Project](#-how-to-run-the-project)
-9. [📸 Screenshots](#screenshots)
-10. [🌸 Functionalities and User Benefits](#functionalities-and-user-benefits)
-11. [🐞 Bug Fixes](#-bug-fixes)
-12. [✅ Validation Methods](#-validation-methods)
-13. [🖼️ Validation Screenshots](#️-validation-screenshots)
-14. [📊 Performance](#-performance)
-15. [⚠️ Limitations](#️-limitations)
-16. [🌱 Future Enhancements](#-future-enhancements)
-17. [📜 License](#license)
-18. [🙌 Credits](#-credits)
-19. [📧 Contact](#-contact)
-20. [💻 JavaScript Integration](#-javascript-integration)
+1. [Live Demo](#live-demo)
+2. [Homepage Screenshot](#homepage-screenshot)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
+5. [AI Influence on Workflow](#ai-influence-on-workflow)
+6. [Color Palette](#color-palette)
+7. [Folder Structure](#folder-structure)
+8. [How to Run the Project](#how-to-run-the-project)
+9. [Screenshots](#screenshots)
+10. [Functionalities and User Benefits](#functionalities-and-user-benefits)
+11. [Bug Fixes](#bug-fixes)
+12. [Validation Methods](#validation-methods)
+13. [Validation Screenshots](#validation-screenshots)
+14. [Performance](#performance)
+15. [Limitations](#limitations)
+16. [Future Enhancements](#future-enhancements)
+17. [License](#license)
+18. [Credits](#credits)
+19. [Contact](#contact)
+20. [JavaScript Integration](#javascript-integration)
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Homepage**: A visually appealing landing page with a banner, featured services, testimonials, and blog snippets.
 - **Homepage Carousel**: A responsive carousel showcasing featured floral arrangements and highlights.
@@ -57,7 +57,7 @@ Check out the live version of the website here:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout.
@@ -68,31 +68,31 @@ Check out the live version of the website here:
 
 ---
 
-## 🤖 AI Influence on Workflow
+## AI Influence on Workflow
 
 AI tools like GitHub Copilot significantly enhanced the development process by streamlining bug fixes, optimizing performance, and improving accessibility and SEO. It provided intelligent code suggestions, automated repetitive tasks, and ensured adherence to best practices, resulting in a more efficient workflow and a polished final product.
 
 ---
 
-## 🎨 Color Palette
+## Color Palette
 
 The Fiorellino website uses the following color palette to create an elegant and visually appealing design:
 
 | Color Name         | Hex Code   | Usage                                   |
 |--------------------|------------|-----------------------------------------|
-| **Floral Pink**    | `#FFC0CB`  | Highlights, buttons, and accents        |
-| **Pastel Green**   | `#98FB98`  | Backgrounds and subtle sections         |
-| **Ivory White**    | `#FFFFF0`  | Main background color                   |
-| **Charcoal Gray**  | `#333333`  | Text and headings                       |
-| **Soft Gold**      | `#FFD700`  | Decorative elements and icons           |
-| **Light Lavender** | `#E6E6FA`  | Secondary backgrounds and hover effects |
-| **Deep Burgundy**  | `#800020`  | Footer background and strong accents    |
+| Floral Pink        | `#FFC0CB`  | Highlights, buttons, and accents        |
+| Pastel Green       | `#98FB98`  | Backgrounds and subtle sections         |
+| Ivory White        | `#FFFFF0`  | Main background color                   |
+| Charcoal Gray      | `#333333`  | Text and headings                       |
+| Soft Gold          | `#FFD700`  | Decorative elements and icons           |
+| Light Lavender     | `#E6E6FA`  | Secondary backgrounds and hover effects |
+| Deep Burgundy      | `#800020`  | Footer background and strong accents    |
 
 This palette ensures a cohesive and elegant aesthetic, reflecting the brand's floral and sophisticated theme.
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```plaintext
 Fiorellino/
@@ -115,25 +115,25 @@ Fiorellino/
 │   ├── blog_imgs/
 │   └── service_imgs/
 └── js/                      # JavaScript files
-    └── main.js
-```markdown
+    └── script.js
+```plaintext
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/sandhya80.github.io/fiorellino.git
    cd fiorellino
-   ```markdown
+   ```
 
-1. Open `index.html` in your browser to view the website.
+2. Open `index.html` in your browser to view the website.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 **For Small Screens:**
 
@@ -167,7 +167,7 @@ Homepage/services for large screens:
 
 ---
 
-## 🌸 Functionalities and User Benefits
+## Functionalities and User Benefits
 
 - **Visually Appealing Banner**: Captures user attention with a high-quality floral image and a call-to-action button for quick navigation.
 - **Featured Services Section**: Highlights key services like weddings, corporate events, and private celebrations, making it easy for users to explore offerings.
@@ -183,7 +183,7 @@ These features provide an intuitive and engaging experience, helping users quick
 
 ---
 
-## 🐞 Bug Fixes
+## Bug Fixes
 
 Several issues were identified and resolved in the **Fiorellino Blog Page** with the help of GitHub Copilot to enhance performance, accessibility, best practices, and SEO:
 
@@ -207,7 +207,7 @@ These fixes ensure a faster, more user-friendly, and SEO-optimized experience fo
 
 ---
 
-## ✅ Validation Methods
+## Validation Methods
 
 To ensure the Fiorellino website adheres to modern web standards and delivers an optimal user experience, the following validation methods were used:
 
@@ -222,7 +222,7 @@ These validation methods guarantee a high-quality, user-friendly, and accessible
 
 ---
 
-## 🖼️ Validation Screenshots
+## Validation Screenshots
 
 Below are the screenshots showcasing the validation results for HTML and CSS:
 
@@ -234,9 +234,13 @@ Below are the screenshots showcasing the validation results for HTML and CSS:
 
    ![CSS Validation](assets/ReadMe_imgs/css_validation.PNG)
 
+3. **JS Validation**: JavaScript was validated using [JSHint](https://jshint.com/) and [ESLint](https://eslint.org/) for code quality and error checking.
+
 ---
 
-## 📊 Performance
+---
+
+## Performance
 
 This project is optimized for fast loading times and smooth user experience across all devices. Below are the performance metrics and screenshots showcasing the results:
 
@@ -247,7 +251,7 @@ This project is optimized for fast loading times and smooth user experience acro
 3. **Best Practices**: Adheres to modern web development standards.
 4. **SEO**: Optimized for search engines.
 
-### Screenshots
+### Performance Report Screenshots
 
 - **Lighthouse Performance Report**:
 
@@ -269,7 +273,7 @@ This project is optimized for fast loading times and smooth user experience acro
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - The website currently lacks **e-commerce functionality** for purchasing floral arrangements and event packages.
 - **User accounts** and personalized features, such as order tracking, are not yet implemented.
@@ -283,7 +287,7 @@ These limitations will be addressed in future updates to enhance the website's f
 
 ---
 
-## 🌱 Future Enhancements
+## Future Enhancements
 
 1. **E-commerce Integration**: Add an online store for purchasing floral arrangements and event packages.
 2. **User Accounts**: Enable user registration and login for personalized experiences and order tracking.
@@ -297,13 +301,13 @@ These enhancements aim to improve user engagement, functionality, and global rea
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed strictly for **educational purposes only**. Any commercial use, redistribution, or modification of this project is prohibited without prior permission.
 
 ---
 
-## 🙌 Credits
+## Credits
 
 - **Bootstrap**: For providing responsive design and prebuilt components. [Visit Bootstrap](https://getbootstrap.com/)
 - **Unsplash**: For the beautiful images used in the project. [Visit Unsplash](https://unsplash.com/)
@@ -311,7 +315,7 @@ This project is licensed strictly for **educational purposes only**. Any commerc
 
 ---
 
-## 📧 Contact
+## Contact
 
 For any inquiries or feedback, feel free to reach out:
 
@@ -319,11 +323,11 @@ Email: <sandhyaharsh@gmail.com>
 
 ---
 
-Thank you for visiting Fiorellino! 🌺
+Thank you for visiting Fiorellino!
 
 ---
 
-## 💻 JavaScript Integration
+## JavaScript Integration
 
 The project now includes a dedicated JavaScript file:  
 **`js/script.js`**
@@ -362,8 +366,11 @@ The project now includes a dedicated JavaScript file:
 
 ### File Structure (Relevant to JavaScript)
 
+```
 /js
   └── script.js
+```
+
 ---
 
 ### How to Use
