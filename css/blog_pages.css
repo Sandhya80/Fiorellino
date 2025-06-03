@@ -1,64 +1,9 @@
 /* Blog Page CSS */
-/* General Reset */
-body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    background-color: white; /* Matches the Fiorellino theme */
-  }
-  
-  /* Navbar Styling */
-  .navbar {
-    position: fixed; /* Fixes the navbar to the top */
-    top: 0; /* Ensures no gap between the navbar and the top of the page */
-    left: 0;
-    width: 100%; /* Full width */
-    z-index: 1000; /* Ensures the navbar stays on top of other elements */
-    background-color: lavenderblush; /* Matches the theme */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
-    padding: 10px 20px; /* Adjust padding for better spacing */
-  }
-  
-  /* Navbar Links */
-  .navbar .nav-link {
-    color: purple; /* Matches the theme */
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar .nav-link:hover {
-    color: darkorchid; /* Slightly darker shade on hover */
-  }
-  
-  /* Navbar Dropdown */
-  .navbar .dropdown-menu {
-    background-color: lavenderblush; /* Matches the navbar */
-    border: none;
-  }
-  
-  .navbar .dropdown-item {
-    color: purple;
-  }
-  
-  .navbar .dropdown-item:hover {
-    background-color: darkorchid;
-    color: white;
-  }
-  
-  /* Add margin to the body to prevent content from overlapping the fixed navbar */
-  body {
-    padding-top: 70px; /* Adjust this value based on the height of your navbar */
-  }
-
-  html {
-    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
-  }
   
   /* Header Styling */
   header {
     background-color: beige;
-    padding: 20px 0;
+    padding: 60px 0;
     text-align: center;
   }
   
@@ -145,29 +90,7 @@ body, html {
     background-color: darkorchid; /* Slightly darker shade for hover effect */
   }
   
-  /* Footer Styling */
-  footer {
-    background-color: purple; /* Matches the index page footer */
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  footer .footer-text {
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-  
-  footer .icons i {
-    margin: 0 10px;
-    color: white;
-    transition: color 0.3s ease;
-  }
-  
-  footer .icons i:hover {
-    color: lavenderblush; /* Hover effect for social icons */
-  }
-
+/* Responsive Design */
   /* Small Devices (e.g., phones, less than 576px) */
 @media (max-width: 575.98px) {
     .navbar-brand {

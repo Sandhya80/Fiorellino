@@ -1,33 +1,30 @@
-body {
-    background-color: white; /* Light background for a clean look */
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-}
 .about-section {
     font-family: 'Playfair Display', serif;
     color: #800020; /* Deep Burgundy */
-    padding: 40px 0 20px 0;
+    padding: 80px 0 10px 0;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
-/* Add styles or remove the empty ruleset */
+/* About Section Subheading Styles */
 .about-section-name {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: purple;
 }
+/* About Us Section General Styles */
 .about-us {
     text-align: center;
     text-transform: none;   
 }
+/* Paragraph Styles for About Page */
 p {
     color: darkred;
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.5;
 }
+/* Lead Text Styles for About Page */
 .lead {
     font-size: 30px;
     color: purple; /* Deep Burgundy */
@@ -35,11 +32,13 @@ p {
 }
 
 /* Team Carousel Styling */
+/* Container for the team carousel */
 .team-carousel {
     text-align: center;
     margin-top: 3rem;
 }
 
+/* Team Member Image Styling */
 .team-img {
     width: 140px; /* Set the size of the circular images */
     height: 140px; /* Ensure the height matches the width */
@@ -51,6 +50,7 @@ p {
     display: block;
 }
 
+/* Team Member Name Styling in Carousel */
 .carousel-inner h5 {
     font-family: 'Playfair Display', serif; /* Elegant font for names */
     color: #800020; /* Deep Burgundy color */
@@ -58,6 +58,7 @@ p {
     font-size: 1.2rem;
 }
 
+/* Team Member Role Styling in Carousel */
 .carousel-inner p {
     font-family: 'Roboto', sans-serif;
     color: #555555; /* Subtle gray for roles */
@@ -73,6 +74,7 @@ p {
     padding: 10px;
 }
 
+/* Carousel Controls Hover Effect */
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
     background-color: #FFC0CB; /* Floral Pink on hover */

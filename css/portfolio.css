@@ -1,21 +1,15 @@
-/* General Body Styling */
-body {
-    background-color: white; /* Light background for a clean look */
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 /*portfolio section styles*/
+/* Main heading styles for the portfolio section */
 .portfolio-section {
     font-family: 'Playfair Display', serif;
     color: #800020; /* Deep Burgundy */
-    padding: 40px 0 20px 0;
+    padding: 80px 0 20px 0;
     font-size: 40px;
     text-align: center;
     margin-bottom: 2rem;
 }
 /* Portfolio Name Styling */
+/* Subheading styles for each portfolio category */
 .portfolio-name {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -25,18 +19,21 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+/* Portfolio section h2 heading styles */
 .portfolio-section h2 {
     font-size: 2.5rem;
     color: #800020; /* Deep Burgundy */
     margin-bottom: 1rem;
 }
 
+/* Portfolio section paragraph styles */
 .portfolio-section p {
     font-size: 1.2rem;
     color: #555555; /* Subtle gray for text */
     margin-bottom: 2rem;
 }
 /* Responsive Styling */
+/* Adjust heading and grid styles for tablets and smaller screens */
 @media (max-width: 768px) {
     .portfolio-section h1 {
         font-size: 2rem; /* Adjust font size for smaller screens */
@@ -51,6 +48,7 @@ body {
     }
 }
 
+/* Further adjustments for mobile devices */
 @media (max-width: 576px) {
     .portfolio-section h1 {
         font-size: 1.8rem; /* Further reduce font size for mobile devices */
@@ -65,6 +63,7 @@ body {
     }
 }
 
+/* Styles for portfolio images with rounded corners and shadow */
 .img-fluid.rounded {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -72,6 +71,7 @@ body {
     object-fit: cover;
 }
 
+/* Hover effect for portfolio images */
 .img-fluid.rounded:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);

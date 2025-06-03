@@ -1,25 +1,15 @@
 /* General Reset */
-body, html {    
-    box-sizing: border-box;
-}
-html {
-    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
-}
-
-navbar {
-    background-color: lavenderblush; /* Light background for navbar */
-    padding: 10px 20px; /* Padding for spacing */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
 /* Main Content Styling */
+/* Add spacing for fixed navbar and footer, set background and min height */
 main {
     padding-top: 70px; /* Space for fixed navbar */
     padding-bottom: 20px; /* Space for footer */
-    background-color: beige; /* Light background for contrast */
+    background-color: rgb(241, 241, 230); /* Light background for contrast */
     min-height: calc(100vh - 70px); /* Ensure the main content fills the viewport minus the navbar height */
 }
 
+/* Card Styling */
+/* Style for blog cards with rounded corners and shadow */
 .card {
     border-radius: 12px; /* Rounded corners for cards */
     border: none;
@@ -32,35 +22,22 @@ main {
 }
 .card-title {
     font-family: 'Playfair Display', serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: purple; /* Dark text for contrast */
     font-weight: bold; /* Bold weight for emphasis */
 }
-.card-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    color: black;
-}
+
+/* Heading Styles */
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem; /* Adjusted size for better visibility */
+    font-size: 1.5rem; /* Adjusted size for better visibility */
     color: purple; /* Dark text for contrast */
-    margin-top: 80px;
+    margin-top: 65px;
     margin-bottom: 20px; /* Space below the heading */
 }
-.lead {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem; /* Adjusted size for better visibility */
-    color: black; /* Dark text for contrast */
-    margin-bottom: 20px; /* Space below the lead paragraph */
-}
-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem !important; /* Adjusted size for better visibility */
-    color: darkmagenta; /* Dark text for contrast */
-    margin-bottom: 20px; /* Space below paragraphs */
-}
 
+/* Button Styling */
+/* Style for primary buttons and hover effect */
 .btn-primary {
     background-color: purple;
     border: none;
@@ -71,29 +48,7 @@ p {
 }
 
 /* Blog Section Styling */
-/* Footer Section */
-footer .container{
-    background-color: lavenderblush;
-    text-align: center;
-    padding: 8px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-.footer-text {
-    font-size: 1rem;
-    font-weight: normal;
-    font-style: italic;
-    color: violet;
-}
-.icons {
-    flex: 1;
-    margin: 8px 10px;
-    padding: 8px 10px;
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-}
+
 
 /* Responsive Design */
 
@@ -104,7 +59,7 @@ footer .container{
     }
 
     h1 {
-        font-size: 2rem; /* Adjust heading size */
+        font-size: 1.5rem; /* Adjust heading size */
     }
 
     .card-title {
@@ -119,7 +74,7 @@ footer .container{
     }
 
     h1 {
-        font-size: 2.2rem; /* Adjust heading size */
+        font-size: 1.8rem; /* Adjust heading size */
     }
 
     .card-title {
@@ -133,7 +88,7 @@ footer .container{
     }
 
     h1 {
-        font-size: 2.5rem; /* Adjust heading size */
+        font-size: 2rem; /* Adjust heading size */
     }
 
     .card-title {
@@ -147,7 +102,7 @@ footer .container{
     }
 
     h1 {
-        font-size: 3rem; /* Adjust heading size */
+        font-size: 2.5rem; /* Adjust heading size */
     }
 
     .card-title {

@@ -35,7 +35,7 @@
 }
 /* Booking Form Styling */
 .booking-form {
-    background-color: lavenderblush; /* Matches the Fiorellino theme */
+    background-color: rgb(196, 185, 199); /* Matches the Fiorellino theme */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -62,17 +62,11 @@
   }
   /* Dropdown Styling */
   #event-service {
-    background-color: lavenderblush; /* Matches the Fiorellino theme */
+    background-color: rgb(231, 218, 233); /* Matches the Fiorellino theme */
     color: purple; /* Text color */
     border: 1px solid #ccc; /* Border color */
     border-radius: 5px; /* Rounded corners */
     padding: 10px; /* Padding inside the dropdown */
     font-family: 'Roboto', sans-serif; /* Font style */
     font-size: 1rem; /* Font size */
-  }
-  p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem !important;
-    color: violet !important;
-    margin-bottom: 20px;
   }
